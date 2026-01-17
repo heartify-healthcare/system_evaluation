@@ -94,20 +94,12 @@ Dựa trên kịch bản trong [script2/script_content.tex](script2/script_conte
 
 ---
 
-## Tổng hợp & Nhận xét (Gemini)
+## Tổng hợp (đã cập nhật đủ 72 outputs: 36 No-RAG + 36 RAG)
 
-### Chỉ số thống kê (Trên 12 mẫu đánh giá: 6 No-RAG, 6 RAG)
-
-* **Jargon Density (JD):**
-    * **No-RAG:** Trung bình **0.25%**.
-    * **With-RAG:** Trung bình **0.13%**.
-    * *Nhận xét:* Pipeline RAG có xu hướng giải thích thuật ngữ tốt hơn một chút hoặc dùng từ ngữ chuẩn xác hơn, mặc dù sự khác biệt về mật độ jargon là không quá lớn.
-
-* **Hallucination Rate (HR - Tỷ lệ thiếu nguồn):**
-    * **No-RAG:** **6/6 (100%)**. 100% các câu trả lời đều là kiến thức nội tại của LLM, hoàn toàn không có trích dẫn kiểm chứng.
-    * **With-RAG:** **2/6 (33.3%)**.
-        * Các Case 1, 2, 3, 4 (Rung nhĩ và 1 case Cuồng nhĩ) hoạt động tốt, có trích dẫn nguồn cụ thể (LITFL, Rev Esp Cardiol).
-        * Các Case 5, 6 (Cuồng nhĩ) **gặp lỗi**: Output không chứa thông tin nguồn, nội dung quay về dạng generic như No-RAG.
+- **JD (No-RAG):** mean 0.09%, median 0.00%
+- **JD (RAG):** mean 0.06%, median 0.00%
+- **HR (No-RAG, theo case):** 36/36 = 100.00%
+- **HR (RAG, theo case):** 7/36 = 19.44%
 
 ### Nhận xét định tính
 
