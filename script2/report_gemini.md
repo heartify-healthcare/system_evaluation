@@ -20,6 +20,12 @@ Dựa trên kịch bản trong [script2/script_content.tex](script2/script_conte
 | 4 | Cuồng nhĩ (Atrial Flutter) | 262 | 1 | 0.38 | Không | 1 | \"HRV\" (chỉ số HRV cao) chưa giải thích. |
 | 5 | Cuồng nhĩ (Atrial Flutter) | 261 | 0 | 0.00 | Không | 1 | \"sóng F\" (răng cưa) đã diễn giải. |
 | 6 | Cuồng nhĩ (Atrial Flutter) | 229 | 1 | 0.44 | Không | 1 | \"sóng flutter\" (tiếng Anh) chưa giải thích rõ. |
+| 7 | Nhịp chậm (Bradycardia) | 175 | 0 | 0.00 | Không | 1 | Giải thích rõ ràng, QRS được diễn giải là "thời gian dẫn truyền". |
+| 8 | Nhịp chậm (Bradycardia) | 182 | 0 | 0.00 | Không | 1 | Không có thuật ngữ khó hiểu. |
+| 9 | Nhịp chậm (Bradycardia) | 158 | 0 | 0.00 | Không | 1 | "sóng QRS" được nhắc đến nhưng trong ngữ cảnh dễ hiểu. |
+| 10 | Block nhĩ thất độ I | 205 | 0 | 0.00 | Không | 1 | Giải thích rất kỹ về sóng P, QRS và khoảng PR. |
+| 11 | Block nhĩ thất độ I | 195 | 0 | 0.00 | Không | 1 | Diễn giải "khoảng thời gian giữa sóng P và phức bộ QRS". |
+| 12 | Block nhĩ thất độ I | 202 | 0 | 0.00 | Không | 1 | Giải thích rõ ràng về sự chậm trễ dẫn truyền. |
 
 ## Kết quả chi tiết (With-RAG, Case 1–6)
 
@@ -31,6 +37,12 @@ Dựa trên kịch bản trong [script2/script_content.tex](script2/script_conte
 | 4 | Cuồng nhĩ (Atrial Flutter) | 259 | 0 | 0.00 | Có | 0 | Trích dẫn \"Rev Esp Cardiol\" và \"LITFL\". |
 | 5 | Cuồng nhĩ (Atrial Flutter) | 273 | 0 | 0.00 | Không | 1 | **Lỗi:** Không tìm thấy trích dẫn nguồn. |
 | 6 | Cuồng nhĩ (Atrial Flutter) | 262 | 0 | 0.00 | Không | 1 | **Lỗi:** Không tìm thấy trích dẫn nguồn. |
+| 7 | Nhịp chậm (Bradycardia) | 198 | 0 | 0.00 | Không | 1 | **Lỗi:** Không tìm thấy trích dẫn nguồn. Nội dung khá giống No-RAG. |
+| 8 | Nhịp chậm (Bradycardia) | 165 | 0 | 0.00 | Không | 1 | **Lỗi:** Không tìm thấy trích dẫn nguồn. |
+| 9 | Nhịp chậm (Bradycardia) | 178 | 0 | 0.00 | Không | 1 | **Lỗi:** Không tìm thấy trích dẫn nguồn. |
+| 10 | Block nhĩ thất độ I | 215 | 0 | 0.00 | Có | 0 | Trích dẫn "Theo hướng dẫn y khoa...". |
+| 11 | Block nhĩ thất độ I | 208 | 0 | 0.00 | Có | 0 | Trích dẫn "Theo hướng dẫn y khoa...". |
+| 12 | Block nhĩ thất độ I | 218 | 0 | 0.00 | Có | 0 | Trích dẫn "Theo hướng dẫn y khoa...". |
 
 ---
 
