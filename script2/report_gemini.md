@@ -26,6 +26,12 @@ Dựa trên kịch bản trong [script2/script_content.tex](script2/script_conte
 | 10 | Block nhĩ thất độ I | 205 | 0 | 0.00 | Không | 1 | Giải thích rất kỹ về sóng P, QRS và khoảng PR. |
 | 11 | Block nhĩ thất độ I | 195 | 0 | 0.00 | Không | 1 | Diễn giải "khoảng thời gian giữa sóng P và phức bộ QRS". |
 | 12 | Block nhĩ thất độ I | 202 | 0 | 0.00 | Không | 1 | Giải thích rõ ràng về sự chậm trễ dẫn truyền. |
+| 13 | Block nhánh trái (LBBB) | 220 | 0 | 0.00 | Không | 1 | Phát hiện mâu thuẫn: QRS 0.063s (bình thường) khác với chẩn đoán LBBB. |
+| 14 | Block nhánh trái (LBBB) | 200 | 0 | 0.00 | Không | 1 | Phát hiện mâu thuẫn: QRS 0.07s không phù hợp LBBB. |
+| 15 | Block nhánh trái (LBBB) | 160 | 0 | 0.00 | Có* | 1 | *Có cụm "Theo hướng dẫn y khoa" nhưng được đánh giá là kiến thức nội tại (generic generation) giống Case 2, 10. |
+| 16 | Nhịp xoang bình thường | 150 | 0 | 0.00 | Không | 1 | Giải thích tốt, không có thuật ngữ lạ. |
+| 17 | Nhịp xoang bình thường | 160 | 0 | 0.00 | Không | 1 | Giải thích rõ "nút xoang", "nhịp xoang". |
+| 18 | Nhịp xoang bình thường | 160 | 0 | 0.00 | Không | 1 | Các chỉ số được giải thích rõ ràng. |
 
 ## Kết quả chi tiết (With-RAG, Case 1–6)
 
@@ -43,6 +49,12 @@ Dựa trên kịch bản trong [script2/script_content.tex](script2/script_conte
 | 10 | Block nhĩ thất độ I | 215 | 0 | 0.00 | Có | 0 | Trích dẫn "Theo hướng dẫn y khoa...". |
 | 11 | Block nhĩ thất độ I | 208 | 0 | 0.00 | Có | 0 | Trích dẫn "Theo hướng dẫn y khoa...". |
 | 12 | Block nhĩ thất độ I | 218 | 0 | 0.00 | Có | 0 | Trích dẫn "Theo hướng dẫn y khoa...". |
+| 13 | Block nhánh trái (LBBB) | 200 | 0 | 0.00 | Có | 0 | Trích dẫn rõ ràng: "**Theo hướng dẫn y khoa (LITFL)**". |
+| 14 | Block nhánh trái (LBBB) | 210 | 0 | 0.00 | Có | 0 | Trích dẫn rõ ràng: "**(Litfl.com)**". |
+| 15 | Block nhánh trái (LBBB) | 170 | 0 | 0.00 | Có | 0 | Trích dẫn: "Theo hướng dẫn y khoa". |
+| 16 | Nhịp xoang bình thường | 170 | 0 | 0.00 | Có | 0 | Trích dẫn: "theo hướng dẫn y khoa (70-100 ms)". |
+| 17 | Nhịp xoang bình thường | 170 | 0 | 0.00 | Có | 0 | Trích dẫn: "theo hướng dẫn y khoa". |
+| 18 | Nhịp xoang bình thường | 180 | 0 | 0.00 | Có | 0 | Trích dẫn rõ ràng: "**theo tài liệu y khoa LITFL**". |
 
 ---
 
