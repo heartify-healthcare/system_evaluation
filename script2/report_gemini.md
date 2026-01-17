@@ -44,6 +44,12 @@ Dựa trên kịch bản trong [script2/script_content.tex](script2/script_conte
 | 28 | Chênh xuống đoạn ST | 210 | 0 | 0.00 | Không | 1 | Giải thích ST, QRS dễ hiểu. |
 | 29 | Chênh xuống đoạn ST | 200 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
 | 30 | Chênh xuống đoạn ST | 190 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
+| 31 | Chênh lên đoạn ST (STEMI) | 200 | 1 | 0.50 | Không | 1 | Giải thích đoạn ST tốt. "Tái cực" chưa giải thích rõ. |
+| 32 | Chênh lên đoạn ST (STEMI) | 210 | 0 | 0.00 | Không | 1 | Diễn giải tốt bằng ngôn ngữ phổ thông. |
+| 33 | Chênh lên đoạn ST (STEMI) | 240 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
+| 34 | Nhịp nhanh (Tachycardia) | 220 | 0 | 0.00 | Không | 1 | Giải thích HRV là "Chỉ số biến thiên nhịp tim". |
+| 35 | Nhịp nhanh (Tachycardia) | 190 | 2 | 1.05 | Không | 1 | Nhắc đến "sóng P", "sóng T" mà không giải thích. |
+| 36 | Nhịp nhanh (Tachycardia) | 200 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
 
 ## Kết quả chi tiết (With-RAG, Case 1–6)
 
@@ -79,6 +85,12 @@ Dựa trên kịch bản trong [script2/script_content.tex](script2/script_conte
 | 28 | Chênh xuống đoạn ST | 220 | 0 | 0.00 | Có | 0 | Trích dẫn: "**theo các tài liệu y khoa**". |
 | 29 | Chênh xuống đoạn ST | 210 | 0 | 0.00 | Có | 0 | Trích dẫn: "**theo hướng dẫn y khoa**". |
 | 30 | Chênh xuống đoạn ST | 230 | 0 | 0.00 | Có | 0 | Trích dẫn cụ thể: "**theo thông tin y khoa từ litfl.com**". |
+| 31 | Chênh lên đoạn ST (STEMI) | 230 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". |
+| 32 | Chênh lên đoạn ST (STEMI) | 250 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". |
+| 33 | Chênh lên đoạn ST (STEMI) | 200 | 0 | 0.00 | **Không** | **1** | **Lỗi:** Mất nguồn trích dẫn (Hallucination risk). |
+| 34 | Nhịp nhanh (Tachycardia) | 250 | 1 | 0.40 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". "RMSSD" chưa giải thích. |
+| 35 | Nhịp nhanh (Tachycardia) | 270 | 2 | 0.74 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". "sóng P", "RMSSD" chưa giải thích. |
+| 36 | Nhịp nhanh (Tachycardia) | 250 | 1 | 0.40 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". "RMSSD" chưa giải thích. |
 
 ---
 

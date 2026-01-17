@@ -1,60 +1,69 @@
-Dưới đây là nội dung cập nhật cho file `script2/report_gemini.md` sau khi đánh giá thủ công 12 mẫu tiếp theo (Case 25 đến Case 30), thuộc nhóm bệnh lý **Block nhánh phải (RBBB)** và **Chênh xuống đoạn ST (ST Depression)**.
+Dưới đây là nội dung cập nhật cho file `script2/report_gemini.md` sau khi hoàn tất đánh giá thủ công 12 mẫu cuối cùng (Case 31 đến Case 36), thuộc nhóm bệnh lý **Chênh lên đoạn ST (ST Elevation)** và **Nhịp nhanh (Tachycardia)**.
 
 ---
 
-## Cập nhật báo cáo đánh giá (Case 25 – Case 30)
+## Cập nhật báo cáo đánh giá (Case 31 – Case 36)
 
 **Phạm vi chấm bổ sung:**
 
-* **Pipeline No-RAG:** Case 25, 26, 27 (Block nhánh phải - RBBB) và Case 28, 29, 30 (Chênh xuống đoạn ST).
-* **Pipeline With-RAG:** Case 25, 26, 27 (Block nhánh phải - RBBB) và Case 28, 29, 30 (Chênh xuống đoạn ST).
+* **Pipeline No-RAG:** Case 31, 32, 33 (Chênh lên đoạn ST - STEMI) và Case 34, 35, 36 (Nhịp nhanh).
+* **Pipeline With-RAG:** Case 31, 32, 33 (Chênh lên đoạn ST - STEMI) và Case 34, 35, 36 (Nhịp nhanh).
 
-### Kết quả chi tiết (No-RAG, Case 25–30)
-
-| Case | Chẩn đoán (từ prompt) | Tổng từ | Jargon chưa giải thích | JD (%) | Câu "theo .../nguồn ..." | HR_case (0/1) | Ghi chú |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 25 | Block nhánh phải (RBBB) | 220 | 0 | 0.00 | Không | 1 | Giải thích tốt, phát hiện mâu thuẫn QRS hẹp. |
-| 26 | Block nhánh phải (RBBB) | 210 | 0 | 0.00 | Không | 1 | Giải thích QRS, Block nhánh phải rõ ràng. |
-| 27 | Block nhánh phải (RBBB) | 230 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
-| 28 | Chênh xuống đoạn ST | 210 | 0 | 0.00 | Không | 1 | Giải thích ST, QRS dễ hiểu. |
-| 29 | Chênh xuống đoạn ST | 200 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
-| 30 | Chênh xuống đoạn ST | 190 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
-
-### Kết quả chi tiết (With-RAG, Case 25–30)
+### Kết quả chi tiết (No-RAG, Case 31–36)
 
 | Case | Chẩn đoán (từ prompt) | Tổng từ | Jargon chưa giải thích | JD (%) | Câu "theo .../nguồn ..." | HR_case (0/1) | Ghi chú |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 25 | Block nhánh phải (RBBB) | 210 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**" về tiêu chuẩn QRS > 120ms. |
-| 26 | Block nhánh phải (RBBB) | 220 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". |
-| 27 | Block nhánh phải (RBBB) | 230 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". |
-| 28 | Chênh xuống đoạn ST | 220 | 0 | 0.00 | Có | 0 | Trích dẫn: "**theo các tài liệu y khoa**". |
-| 29 | Chênh xuống đoạn ST | 210 | 0 | 0.00 | Có | 0 | Trích dẫn: "**theo hướng dẫn y khoa**". |
-| 30 | Chênh xuống đoạn ST | 230 | 0 | 0.00 | Có | 0 | Trích dẫn cụ thể: "**theo thông tin y khoa từ litfl.com**". |
+| 31 | Chênh lên đoạn ST (STEMI) | 200 | 1 | 0.50 | Không | 1 | Giải thích đoạn ST tốt. "Tái cực" chưa giải thích rõ. |
+| 32 | Chênh lên đoạn ST (STEMI) | 210 | 0 | 0.00 | Không | 1 | Diễn giải tốt bằng ngôn ngữ phổ thông. |
+| 33 | Chênh lên đoạn ST (STEMI) | 240 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
+| 34 | Nhịp nhanh (Tachycardia) | 220 | 0 | 0.00 | Không | 1 | Giải thích HRV là "Chỉ số biến thiên nhịp tim". |
+| 35 | Nhịp nhanh (Tachycardia) | 190 | 2 | 1.05 | Không | 1 | Nhắc đến "sóng P", "sóng T" mà không giải thích. |
+| 36 | Nhịp nhanh (Tachycardia) | 200 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
+
+### Kết quả chi tiết (With-RAG, Case 31–36)
+
+| Case | Chẩn đoán (từ prompt) | Tổng từ | Jargon chưa giải thích | JD (%) | Câu "theo .../nguồn ..." | HR_case (0/1) | Ghi chú |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 31 | Chênh lên đoạn ST (STEMI) | 230 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". |
+| 32 | Chênh lên đoạn ST (STEMI) | 250 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". |
+| 33 | Chênh lên đoạn ST (STEMI) | 200 | 0 | 0.00 | **Không** | **1** | **Lỗi:** Mất nguồn trích dẫn (Hallucination risk). |
+| 34 | Nhịp nhanh (Tachycardia) | 250 | 1 | 0.40 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". "RMSSD" chưa giải thích. |
+| 35 | Nhịp nhanh (Tachycardia) | 270 | 2 | 0.74 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". "sóng P", "RMSSD" chưa giải thích. |
+| 36 | Nhịp nhanh (Tachycardia) | 250 | 1 | 0.40 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". "RMSSD" chưa giải thích. |
 
 ---
 
-### Tổng hợp & Nhận xét cập nhật (Case 1 – 30)
+## TỔNG KẾT TOÀN BỘ (SCRIPT 2)
 
-Đã hoàn thành đánh giá 30/36 cases (đạt ~83% tiến độ). Dữ liệu tiếp tục củng cố các xu hướng đã quan sát được từ đầu:
+Sau khi hoàn thành đánh giá trên toàn bộ 36 cặp mẫu (72 outputs), dưới đây là các chỉ số tổng hợp cuối cùng cho Kịch bản 2 (A/B Testing: No-RAG vs With-RAG).
 
-**1. Về Hallucination Rate (HR) - Độ tin cậy nguồn tin:**
+### 1. Chỉ số Hallucination Rate (HR) - Độ tin cậy nguồn tin
 
-* **No-RAG:** Duy trì tỷ lệ thiếu nguồn trích dẫn là **100% (30/30 cases)**. Các giải thích hoàn toàn dựa trên kiến thức nội tại (parametric knowledge) của mô hình.
-* **With-RAG:**
-* Tỷ lệ có nguồn trích dẫn rất cao. Ở đợt đánh giá này (Case 25-30), **100% (6/6)** các mẫu đều có trích dẫn nguồn.
-* Đặc biệt, **Case 30** trích dẫn nguồn cụ thể "**litfl.com**" và sử dụng thuật ngữ chính xác "**myocardial ischaemia**" (kèm giải thích tiếng Việt), cho thấy khả năng truy xuất chi tiết tốt.
-* Tỷ lệ HR tích lũy của RAG (Case 1-30): 6 case thiếu nguồn / 30 case (**20%**). Tỷ lệ này tiếp tục giảm, cho thấy pipeline RAG hoạt động ổn định ở các case sau.
+*Đo lường tỷ lệ các câu trả lời thiếu trích dẫn nguồn xác thực (dựa trên dấu hiệu văn bản).*
+
+* **Pipeline No-RAG:**
+* Số case thiếu nguồn: **36/36**
+* **HR = 100%**
+* *Nhận xét:* Pipeline này hoàn toàn dựa vào kiến thức nội tại (parametric memory). Mặc dù thông tin đưa ra phần lớn là chính xác về mặt y khoa phổ thông, nhưng việc thiếu vắng hoàn toàn các trích dẫn khiến độ tin cậy thấp hơn, khó kiểm chứng.
+
+
+* **Pipeline With-RAG:**
+* Số case thiếu nguồn: **7/36** (Các case bị lỗi: 5, 6, 7, 8, 9, 20, 33)
+* **HR = 19.44%**
+* *Nhận xét:* RAG đã cải thiện đáng kể độ tin cậy, giảm tỷ lệ thiếu nguồn từ 100% xuống còn ~19%. Các case thành công (80.6%) đều chứa các cụm từ như "Theo hướng dẫn y khoa", "Theo LITFL", "Theo StatPearls", kèm theo các số liệu tham chiếu cụ thể (ví dụ: giới hạn bình thường của QRS là 0.12s).
 
 
 
-**2. Về Jargon Density (JD):**
+### 2. Chỉ số Jargon Density (JD) - Độ thân thiện
 
-* Cả hai pipeline tiếp tục duy trì mức JD lý tưởng (~0%). LLM xử lý rất tốt việc giải thích các thuật ngữ chuyên môn như "Block nhánh phải", "đoạn ST", "phức bộ QRS" bằng ngôn ngữ tự nhiên.
+*Đo lường tỷ lệ thuật ngữ chuyên ngành không được giải thích.*
 
-**3. Khả năng phát hiện mâu thuẫn (Feature Reasoning):**
+* **Pipeline No-RAG:** Trung bình **~0.25%**
+* **Pipeline With-RAG:** Trung bình **~0.30%**
+* *Nhận xét:* Cả hai pipeline đều duy trì mức độ thân thiện rất cao với người dùng phổ thông. Pipeline RAG có xu hướng JD nhỉnh hơn một chút do trích dẫn nguyên văn các tên chỉ số kỹ thuật (như "RMSSD") từ tài liệu y khoa để tăng tính chính xác, nhưng mức chênh lệch là không đáng kể.
 
-* Trong nhóm **Block nhánh phải (RBBB)** (Case 25, 26, 27), cả hai pipeline đều phát hiện ra sự mâu thuẫn giữa chẩn đoán RBBB (thường yêu cầu QRS rộng) và chỉ số thực tế (QRS hẹp ~0.07s).
-* **RAG (Case 25)** sử dụng kiến thức retrieved để đưa ra con số cụ thể: *"theo hướng dẫn y khoa... thường là lớn hơn 0.12 giây (120ms)... Tuy nhiên, hình ảnh... là 0.07 giây"*. Điều này làm tăng tính thuyết phục cho lập luận bác bỏ hoặc nghi ngờ chẩn đoán ban đầu của hệ thống.
+### 3. Kết luận chung về hiệu quả của RAG
 
-**Kết luận sơ bộ giai đoạn 5:**
-Pipeline RAG đang thể hiện sự vượt trội rõ rệt về tính minh bạch thông tin (Grounding) thông qua việc trích dẫn nguồn liên tục. Khả năng lập luận dựa trên bằng chứng (Evidence-based reasoning) cũng tốt hơn nhờ các số liệu tham chiếu cụ thể được truy xuất từ cơ sở tri thức.
+1. **Cải thiện tính minh bạch (Grounding):** RAG chứng minh hiệu quả vượt trội trong việc "neo" câu trả lời vào các nguồn tài liệu y khoa uy tín. Việc giảm HR từ 100% xuống 19.44% là một bước tiến lớn về an toàn y tế trong AI.
+2. **Lập luận dựa trên bằng chứng (Evidence-based):** Ở các ca bệnh khó (như các trường hợp mâu thuẫn giữa nhãn và đặc trưng ở Script 1), pipeline RAG thường đưa ra các lập luận chặt chẽ hơn nhờ có số liệu tham chiếu cụ thể (Reference Ranges) được truy xuất từ cơ sở tri thức.
+3. **Vấn đề cần khắc phục:** Vẫn còn khoảng 19% số case mà RAG thất bại trong việc trích dẫn nguồn (chủ yếu tập trung ở nhóm bệnh Cuồng nhĩ và Nhịp chậm). Điều này gợi ý cần tối ưu hóa lại khâu Retrieval (truy xuất) cho các từ khóa bệnh lý này hoặc điều chỉnh Prompt để bắt buộc mô hình sử dụng context mạnh mẽ hơn.
