@@ -1,32 +1,5 @@
-Bạn hãy giúp tôi đánh giá thủ công (không viết script) 20 mẫu (script2\36_cases_norag\case_1.json -> script2\36_cases_rag\case_10.json và script2\36_cases_rag\case_1.json -> script2\36_cases_norag\case_10.json) lần lượt trong folder `script2\36_cases_norag` và `script2\36_cases_rag` dựa vào nội dung kịch bản trong `script2\script_content.tex` và mẫu báo cáo trong `script2\report_template.md` (bên trong đây cũng có các quy ước rất hữu ích để dựa vào và đánh giá). Dưới đây là mô tả về các trường trong trong file json trong folder `script2\36_cases_norag` và `script2\36_cases_rag`:
+Bạn hãy giúp tôi đánh giá thủ công (không viết script) 20 mẫu (script2\36_cases_norag\case_1.json -> script2\36_cases_rag\case_6.json và script2\36_cases_rag\case_1.json -> script2\36_cases_norag\case_6.json) lần lượt trong folder `script2\36_cases_norag` và `script2\36_cases_rag` dựa vào nội dung kịch bản trong `script2\script_content.tex` và mẫu báo cáo trong `script2\report_template.md` (bên trong đây cũng có các quy ước rất hữu ích để dựa vào và đánh giá). Dưới đây là mô tả về các trường trong trong file json trong folder `script2\36_cases_norag` và `script2\36_cases_rag`:
 1. Trường `prompt` lưu kết quả chẩn đoán từ một mô hình AI chẩn đoán.
 2. Trường `explanation` lưu kết quả đầu ra của mô hình LLM sau khi prompt.
 
-Bạn hãy giúp tôi dựa trên những gì tôi cung cấp, cập nhật báo cáo vào trong file `script2\report_claudesonnet35.md` nhé. Cảm ơn bạn.
-
-
-
-
-Bạn hãy giúp tôi đánh giá thủ công (không viết script) 20 mẫu (script2\36_cases_norag\case_11.json -> script2\36_cases_rag\case_20.json và script2\36_cases_rag\case_11.json -> script2\36_cases_norag\case_20.json) lần lượt trong folder `script2\36_cases_norag` và `script2\36_cases_rag` dựa vào nội dung kịch bản trong `script2\script_content.tex` và mẫu báo cáo trong `script2\report_template.md` (bên trong đây cũng có các quy ước rất hữu ích để dựa vào và đánh giá). Dưới đây là mô tả về các trường trong trong file json trong folder `script2\36_cases_norag` và `script2\36_cases_rag`:
-1. Trường `prompt` lưu kết quả chẩn đoán từ một mô hình AI chẩn đoán.
-2. Trường `explanation` lưu kết quả đầu ra của mô hình LLM sau khi prompt.
-
-Bạn hãy giúp tôi dựa trên những gì tôi cung cấp, cập nhật báo cáo vào trong file `script2\report_claudesonnet35.md` nhé. Cảm ơn bạn.
-
-
-
-
-Bạn hãy giúp tôi đánh giá thủ công (không viết script) 20 mẫu (script2\36_cases_norag\case_21.json -> script2\36_cases_rag\case_30.json và script2\36_cases_rag\case_21.json -> script2\36_cases_norag\case_30.json) lần lượt trong folder `script2\36_cases_norag` và `script2\36_cases_rag` dựa vào nội dung kịch bản trong `script2\script_content.tex` và mẫu báo cáo trong `script2\report_template.md` (bên trong đây cũng có các quy ước rất hữu ích để dựa vào và đánh giá). Dưới đây là mô tả về các trường trong trong file json trong folder `script2\36_cases_norag` và `script2\36_cases_rag`:
-1. Trường `prompt` lưu kết quả chẩn đoán từ một mô hình AI chẩn đoán.
-2. Trường `explanation` lưu kết quả đầu ra của mô hình LLM sau khi prompt.
-
-Bạn hãy giúp tôi dựa trên những gì tôi cung cấp, cập nhật báo cáo vào trong file `script2\report_claudesonnet35.md` nhé. Cảm ơn bạn.
-
-
-
-
-Bạn hãy giúp tôi đánh giá thủ công (không viết script) 20 mẫu (script2\36_cases_norag\case_31.json -> script2\36_cases_rag\case_36.json và script2\36_cases_rag\case_31.json -> script2\36_cases_norag\case_36.json) lần lượt trong folder `script2\36_cases_norag` và `script2\36_cases_rag` dựa vào nội dung kịch bản trong `script2\script_content.tex` và mẫu báo cáo trong `script2\report_template.md` (bên trong đây cũng có các quy ước rất hữu ích để dựa vào và đánh giá). Dưới đây là mô tả về các trường trong trong file json trong folder `script2\36_cases_norag` và `script2\36_cases_rag`:
-1. Trường `prompt` lưu kết quả chẩn đoán từ một mô hình AI chẩn đoán.
-2. Trường `explanation` lưu kết quả đầu ra của mô hình LLM sau khi prompt.
-
-Bạn hãy giúp tôi dựa trên những gì tôi cung cấp, cập nhật báo cáo vào trong file `script2\report_claudesonnet35.md` nhé. Cảm ơn bạn.
+Bạn hãy giúp tôi dựa trên những gì tôi cung cấp, cập nhật báo cáo vào trong file `script2\report_gemini.md` nhé. Cảm ơn bạn.
