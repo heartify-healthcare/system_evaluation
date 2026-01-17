@@ -32,6 +32,12 @@ Dựa trên kịch bản trong [script2/script_content.tex](script2/script_conte
 | 16 | Nhịp xoang bình thường | 150 | 0 | 0.00 | Không | 1 | Giải thích tốt, không có thuật ngữ lạ. |
 | 17 | Nhịp xoang bình thường | 160 | 0 | 0.00 | Không | 1 | Giải thích rõ "nút xoang", "nhịp xoang". |
 | 18 | Nhịp xoang bình thường | 160 | 0 | 0.00 | Không | 1 | Các chỉ số được giải thích rõ ràng. |
+| 19 | Ngoại tâm thu nhĩ (PAC) | 210 | 0 | 0.00 | Không | 1 | Giải thích rõ hiện tượng "nhịp sớm từ buồng nhĩ". |
+| 20 | Ngoại tâm thu nhĩ (PAC) | 200 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
+| 21 | Ngoại tâm thu nhĩ (PAC) | 190 | 0 | 0.00 | Không | 1 | Giải thích QRS và HRV tốt. |
+| 22 | Ngoại tâm thu thất (PVC) | 200 | 0 | 0.00 | Không | 1 | Mô tả "xung điện bổ sung từ buồng thất" dễ hiểu. |
+| 23 | Ngoại tâm thu thất (PVC) | 195 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
+| 24 | Ngoại tâm thu thất (PVC) | 210 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
 
 ## Kết quả chi tiết (With-RAG, Case 1–6)
 
@@ -55,6 +61,12 @@ Dựa trên kịch bản trong [script2/script_content.tex](script2/script_conte
 | 16 | Nhịp xoang bình thường | 170 | 0 | 0.00 | Có | 0 | Trích dẫn: "theo hướng dẫn y khoa (70-100 ms)". |
 | 17 | Nhịp xoang bình thường | 170 | 0 | 0.00 | Có | 0 | Trích dẫn: "theo hướng dẫn y khoa". |
 | 18 | Nhịp xoang bình thường | 180 | 0 | 0.00 | Có | 0 | Trích dẫn rõ ràng: "**theo tài liệu y khoa LITFL**". |
+| 19 | Ngoại tâm thu nhĩ (PAC) | 220 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo tài liệu y khoa về Premature Atrial Contractions**". |
+| 20 | Ngoại tâm thu nhĩ (PAC) | 210 | 0 | 0.00 | **Không** | **1** | **Lỗi:** Mất trích dẫn nguồn (hallucination risk). |
+| 21 | Ngoại tâm thu nhĩ (PAC) | 200 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa về Premature Atrial Contractions**". |
+| 22 | Ngoại tâm thu thất (PVC) | 220 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**" về tiêu chuẩn QRS rộng >120ms. |
+| 23 | Ngoại tâm thu thất (PVC) | 230 | 0 | 0.00 | Có | 0 | Trích dẫn rõ ràng: "**Theo hướng dẫn y khoa (StatPearls)**". |
+| 24 | Ngoại tâm thu thất (PVC) | 225 | 0 | 0.00 | Có | 0 | Trích dẫn: "**theo hướng dẫn y khoa**". |
 
 ---
 
