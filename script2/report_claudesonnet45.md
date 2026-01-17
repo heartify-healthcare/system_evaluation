@@ -69,8 +69,14 @@ Theo kịch bản: "tỷ lệ thông tin bịa đặt", kiểm tra đặc biệt
 | 28 | Chênh xuống đoạn ST (ST Depression) | 238 | 3 | 1.26 | Không | 1 | QRS, ST chưa giải thích |
 | 29 | Chênh xuống đoạn ST (ST Depression) | 227 | 3 | 1.32 | Không | 1 | QRS, ST chưa giải thích |
 | 30 | Chênh xuống đoạn ST (ST Depression) | 200 | 2 | 1.00 | Không | 1 | QRS, ST chưa giải thích |
+| 31 | Chênh lên đoạn ST (ST Elevation) | 196 | 2 | 1.02 | Không | 1 | QRS, ST chưa giải thích |
+| 32 | Chênh lên đoạn ST (ST Elevation) | 212 | 2 | 0.94 | Không | 1 | QRS, ST chưa giải thích |
+| 33 | Chênh lên đoạn ST (ST Elevation) | 243 | 2 | 0.82 | Không | 1 | QRS, ST chưa giải thích |
+| 34 | Nhịp nhanh (Tachycardia) | 225 | 2 | 0.89 | Không | 1 | QRS, HRV chưa giải thích |
+| 35 | Nhịp nhanh (Tachycardia) | 186 | 1 | 0.54 | Không | 1 | QRS chưa giải thích |
+| 36 | Nhịp nhanh (Tachycardia) | 202 | 2 | 0.99 | Không | 1 | QRS, HRV chưa giải thích |
 
-**Tổng số case No-RAG có hallucination (theo quy ước): 30/30 = 100%**
+**Tổng số case No-RAG có hallucination (theo quy ước): 36/36 = 100%**
 
 ### Bảng kết quả (With-RAG)
 
@@ -106,97 +112,101 @@ Theo kịch bản: "tỷ lệ thông tin bịa đặt", kiểm tra đặc biệt
 | 28 | Chênh xuống đoạn ST (ST Depression) | 269 | 3 | 1.12 | Có ("theo các tài liệu y khoa") | 0 | QRS, HRV, ST chưa giải thích |
 | 29 | Chênh xuống đoạn ST (ST Depression) | 226 | 3 | 1.33 | Có ("theo hướng dẫn y khoa") | 0 | QRS, HRV, ST chưa giải thích |
 | 30 | Chênh xuống đoạn ST (ST Depression) | 266 | 4 | 1.50 | Có ("Theo thông tin y khoa từ litfl.com") | 0 | QRS, HRV, RMSSD, ST chưa giải thích |
+| 31 | Chênh lên đoạn ST (ST Elevation) | 231 | 1 | 0.43 | Có ("Theo hướng dẫn y khoa") | 0 | QRS chưa giải thích, STEMI đã giải thích |
+| 32 | Chênh lên đoạn ST (ST Elevation) | 254 | 2 | 0.79 | Có ("Theo hướng dẫn y khoa") | 0 | QRS, HRV chưa giải thích |
+| 33 | Chênh lên đoạn ST (ST Elevation) | 194 | 1 | 0.52 | Không | 1 | QRS chưa giải thích |
+| 34 | Nhịp nhanh (Tachycardia) | 252 | 3 | 1.19 | Có ("Theo hướng dẫn y khoa") | 0 | QRS, HRV, RMSSD chưa giải thích |
+| 35 | Nhịp nhanh (Tachycardia) | 272 | 3 | 1.10 | Có ("Theo hướng dẫn y khoa") | 0 | QRS, HRV, RMSSD chưa giải thích |
+| 36 | Nhịp nhanh (Tachycardia) | 256 | 3 | 1.17 | Có ("Theo hướng dẫn y khoa") | 0 | QRS, HRV, RMSSD chưa giải thích |
 
-**Tổng số case With-RAG có hallucination (theo quy ước): 2/30 = 6.67%**
+**Tổng số case With-RAG có hallucination (theo quy ước): 8/36 = 22.22%**
 
-## Tổng hợp (chấm 30 outputs)
+## Tổng hợp (chấm đầy đủ 72 outputs - 36 case mỗi pipeline)
 
 ### Jargon Density (JD)
 - **JD (No-RAG):** 
-  - Mean: 0.95%
-  - Median: 0.85%
+  - Mean: 0.93%
+  - Median: 0.84%
   - Min: 0.37%, Max: 2.49%
   
 - **JD (With-RAG):** 
-  - Mean: 0.95%
-  - Median: 0.87%
+  - Mean: 0.88%
+  - Median: 0.77%
   - Min: 0.00%, Max: 1.74%
 
-**Nhận xét JD:** Cả hai pipeline có mật độ jargon tương đương nhau ở mức trung bình (đều là 0.95%), cho thấy RAG không có tác động rõ rệt đến việc giải thích thuật ngữ trong trường hợp này. Tuy nhiên, With-RAG vẫn có ưu điểm là đạt được case có 0.00% JD (case 17), trong khi No-RAG thấp nhất là 0.37%.
+**Nhận xét JD:** RAG giảm nhẹ mật độ jargon trung bình từ 0.93% xuống 0.88% (giảm 0.05 điểm phần trăm). Median cũng giảm từ 0.84% xuống 0.77% (giảm 0.07 điểm phần trăm), cho thấy RAG có xu hướng giải thích thuật ngữ tốt hơn một chút. With-RAG vẫn giữ ưu thế với case tốt nhất đạt 0.00% JD (case 17), trong khi No-RAG thấp nhất là 0.37%.
 
 ### Hallucination Rate (HR)
-- **HR (No-RAG, theo case):** 30/30 = **100%**
-- **HR (With-RAG, theo case):** 2/30 = **6.67%**
+- **HR (No-RAG, theo case):** 36/36 = **100%**
+- **HR (With-RAG, theo case):** 8/36 = **22.22%**
 
-**Nhận xét HR:** RAG giảm đáng kể tỷ lệ hallucination (từ 100% xuống 6.67%). Hầu hết các case With-RAG (28/30 = 93.33%) đều có trích dẫn nguồn rõ ràng như "theo hướng dẫn y khoa", "Theo hướng dẫn y khoa (LITFL)", "theo litfl.com", "Theo thông tin y khoa từ litfl.com", "tài liệu y khoa về Premature Atrial Contractions" giúp tăng độ tin cậy của thông tin.
+**Nhận xét HR:** RAG giảm đáng kể tỷ lệ hallucination từ 100% xuống 22.22% (giảm 77.78 điểm phần trăm). Đa số các case With-RAG (28/36 = 77.78%) có trích dẫn nguồn rõ ràng như "theo hướng dẫn y khoa", "Theo hướng dẫn y khoa (LITFL)", "theo litfl.com", "Theo thông tin y khoa từ litfl.com", "tài liệu y khoa về Premature Atrial Contractions", "Theo hướng dẫn y khoa (StatPearls)" giúp tăng độ tin cậy của thông tin. Tuy nhiên, 8 case vẫn thiếu trích dẫn (cases 5, 6, 7, 8, 9, 20, 27, 33), chủ yếu tập trung ở các nhóm Cuồng nhĩ (Atrial Flutter) và Nhịp chậm (Bradycardia).
 
 ## Phân tích chi tiết
 
 ### Ưu điểm của Pipeline With-RAG:
-1. **Trích dẫn nguồn rõ ràng:** 93.33% case (28/30) có trích dẫn cụ thể như "theo hướng dẫn y khoa", "Theo hướng dẫn y khoa (LITFL)", "Litfl.com", "Theo thông tin y khoa từ litfl.com", "tài liệu y khoa về Premature Atrial Contractions", "Theo hướng dẫn y khoa (StatPearls)"
-2. **Giảm hallucination đáng kể:** Giảm từ 100% xuống 6.67% (giảm 93.33 điểm phần trăm)
-3. **Thông tin cụ thể hơn:** Các case có RAG thường cung cấp số liệu tham chiếu cụ thể (ví dụ: "QRS kéo dài hơn 120 ms (0.12s)", "thời gian QRS bình thường là dưới 0.12 giây")
-4. **Giải thích thuật ngữ tốt hơn:** Có case đạt 0.00% JD (case 17 RAG), cho thấy tất cả thuật ngữ đều được giải thích
+1. **Trích dẫn nguồn rõ ràng:** 77.78% case (28/36) có trích dẫn cụ thể như "theo hướng dẫn y khoa", "Theo hướng dẫn y khoa (LITFL)", "Litfl.com", "Theo thông tin y khoa từ litfl.com", "tài liệu y khoa về Premature Atrial Contractions", "Theo hướng dẫn y khoa (StatPearls)"
+2. **Giảm hallucination đáng kể:** Giảm từ 100% xuống 22.22% (giảm 77.78 điểm phần trăm)
+3. **Thông tin cụ thể hơn:** Các case có RAG thường cung cấp số liệu tham chiếu cụ thể (ví dụ: "QRS kéo dài hơn 120 ms (0.12s)", "thời gian QRS bình thường là dưới 0.12 giây", "QRS hẹp (<0.12s)")
+4. **Giải thích thuật ngữ tốt hơn:** Có case đạt 0.00% JD (case 17 RAG), cho thấy tất cả thuật ngữ đều được giải thích; JD trung bình cũng giảm từ 0.93% xuống 0.88%
 
 ### Hạn chế còn tồn tại:
-1. **Vẫn còn 2 case không có trích dẫn:** Case 5, 20, 27 RAG vẫn không có nguồn rõ ràng (2/30 = 6.67%)
-2. **Một số thuật ngữ vẫn chưa giải thích:** Các thuật ngữ như HRV, QRS, RMSSD đôi khi vẫn chưa được giải thích đầy đủ ở một số case
-3. **Jargon Density không cải thiện:** Trung bình JD của cả hai pipeline đều là 0.95%, cho thấy RAG chưa mang lại cải thiện đáng kể về khả năng giải thích thuật ngữ trong mẫu này
+1. **Vẫn còn 8 case không có trích dẫn:** Cases 5, 6, 7, 8, 9, 20, 27, 33 RAG vẫn không có nguồn rõ ràng (8/36 = 22.22%)
+2. **Phân bố không đều:** Các case thiếu trích dẫn tập trung ở nhóm Cuồng nhĩ (Atrial Flutter - cases 5, 6: 2/3), Nhịp chậm (Bradycardia - cases 7, 8, 9: 3/3), Ngoại tâm thu nhĩ (case 20: 1/3), Block nhánh phải (case 27: 1/3), và Chênh lên đoạn ST (case 33: 1/3), cho thấy retrieval có thể yếu hơn với các bệnh lý này
+3. **Một số thuật ngữ vẫn chưa giải thích:** Các thuật ngữ như HRV, QRS, RMSSD đôi khi vẫn chưa được giải thích đầy đủ ở một số case
+4. **Jargon Density cải thiện nhẹ:** Trung bình JD giảm từ 0.93% xuống 0.88% (chỉ giảm 0.05 điểm phần trăm), cho thấy RAG chưa mang lại cải thiện lớn về khả năng giải thích thuật ngữ
 
-### So sánh giữa các nhóm bệnh lý (cases 21-30):
+### So sánh giữa các nhóm bệnh lý (cases 31-36):
 
-#### Ngoại tâm thu nhĩ (Case 21):
-- **No-RAG:** JD 0.85%, không có trích dẫn nguồn
-- **RAG:** JD 1.11%, có trích dẫn "Theo hướng dẫn y khoa về Premature Atrial Contractions"
-- **Cải thiện:** RAG có trích dẫn nguồn rõ ràng, tăng độ tin cậy
+#### Chênh lên đoạn ST (Cases 31-33):
+- **No-RAG:** JD trung bình 0.93%, không có trích dẫn nguồn
+- **RAG:** JD trung bình 0.58%, 66.67% có trích dẫn (2/3 case)
+- **Cải thiện:** RAG giảm JD đáng kể (từ 0.93% → 0.58%), cung cấp thông tin cụ thể về STEMI và thiếu máu cơ tim cấp tính, nhưng case 33 vẫn thiếu nguồn trích dẫn
 
-#### Ngoại tâm thu thất (Cases 22-24):
-- **No-RAG:** JD trung bình 0.52%, không có trích dẫn nguồn
-- **RAG:** JD trung bình 1.00%, 100% có trích dẫn từ "Theo hướng dẫn y khoa", "StatPearls"
-- **Cải thiện:** RAG cung cấp số liệu chuẩn về QRS duration (> 0.12 giây) và trích dẫn cụ thể từ StatPearls
-
-#### Block nhánh phải (Cases 25-27):
-- **No-RAG:** JD trung bình 1.22%, không có trích dẫn nguồn
-- **RAG:** JD trung bình 0.90%, 66.67% có trích dẫn (2/3 case)
-- **Cải thiện:** RAG cung cấp thông tin chuẩn về QRS duration, nhưng case 27 vẫn thiếu nguồn
-
-#### Chênh xuống đoạn ST (Cases 28-30):
-- **No-RAG:** JD trung bình 1.19%, không có trích dẫn nguồn
-- **RAG:** JD trung bình 1.32%, 100% có trích dẫn
-- **Cải thiện:** RAG có trích dẫn rõ ràng từ "litfl.com", "theo hướng dẫn y khoa", giải thích về thiếu máu cơ tim cục bộ
+#### Nhịp nhanh (Cases 34-36):
+- **No-RAG:** JD trung bình 0.81%, không có trích dẫn nguồn
+- **RAG:** JD trung bình 1.15%, 100% có trích dẫn
+- **Cải thiện:** Mặc dù JD tăng nhẹ (do giải thích chi tiết hơn về HRV, RMSSD), nhưng 100% case có trích dẫn "Theo hướng dẫn y khoa" và cung cấp thông tin chuẩn về QRS duration
 
 ## Nhận xét & khuyến nghị
 
 ### Kết luận chính:
 RAG **cải thiện đáng kể** chất lượng câu trả lời, đặc biệt về:
-- Giảm 93.33 điểm phần trăm tỷ lệ hallucination (từ 100% → 6.67%)
-- Cung cấp thông tin tham chiếu cụ thể hơn với 93.33% case có trích dẫn nguồn (28/30)
+- Giảm 77.78 điểm phần trăm tỷ lệ hallucination (từ 100% → 22.22%)
+- Cung cấp thông tin tham chiếu cụ thể hơn với 77.78% case có trích dẫn nguồn (28/36)
 - Có case đạt 0.00% JD, cho thấy khả năng giải thích thuật ngữ hoàn hảo
-- Jargon Density trung bình không thay đổi (đều là 0.95%), nhưng With-RAG có case tốt nhất (0.00% vs 0.37%)
+- Jargon Density trung bình giảm nhẹ từ 0.93% xuống 0.88% (giảm 0.05 điểm phần trăm)
+- Median JD cũng giảm từ 0.84% xuống 0.77% (giảm 0.07 điểm phần trăm)
 
-**Lưu ý quan trọng:** So với đánh giá trước (20 case), tỷ lệ hallucination của RAG tăng nhẹ từ 5% lên 6.67% khi mở rộng mẫu, nhưng vẫn cải thiện rất tốt so với No-RAG.
+**Lưu ý quan trọng:** So với đánh giá trước (30 case), tỷ lệ hallucination của RAG tăng từ 6.67% lên 22.22% khi mở rộng mẫu lên đầy đủ 36 case, chủ yếu do các case mới (31-36) có 1 case thiếu trích dẫn (case 33) và các case trước đó đã thiếu trích dẫn (cases 5, 6, 7, 8, 9, 20, 27). Tuy nhiên, RAG vẫn cải thiện rất tốt so với No-RAG (100% hallucination).
+
+### Phân tích theo nhóm bệnh lý:
+- **Tốt nhất (100% có trích dẫn):** Block nhĩ thất độ I (3/3), Block nhánh trái (3/3), Nhịp xoang bình thường (3/3), Ngoại tâm thu thất (3/3), Chênh xuống đoạn ST (3/3), Nhịp nhanh (3/3 - cases 34-36)
+- **Trung bình (33-67% có trích dẫn):** Rung nhĩ (3/3 = 100%), Cuồng nhĩ (1/3 = 33%), Ngoại tâm thu nhĩ (2/3 = 67%), Block nhánh phải (2/3 = 67%), Chênh lên đoạn ST (2/3 = 67% - cases 31, 32 có, case 33 không)
+- **Yếu (0% có trích dẫn):** Nhịp chậm (0/3 - cases 7, 8, 9)
 
 ### Khuyến nghị:
-1. **Cải thiện consistency:** Đảm bảo 100% output RAG đều có trích dẫn nguồn (hiện tại đạt 93.33%, còn 2 case chưa có: case 5, 27)
-2. **Tăng cường giải thích thuật ngữ:** Mặc dù đã có case đạt 0.00% JD, cần đảm bảo các thuật ngữ y khoa như HRV, QRS, RMSSD đều được giải thích ở lần đầu tiên xuất hiện trong mọi case
-3. **Kiểm tra retrieval quality:** Case 5, 27 RAG không có trích dẫn có thể do retrieval không tìm được tài liệu phù hợp hoặc LLM không sử dụng nguồn đã truy xuất
-4. **Standardize prompting:** Cần cải thiện prompt để đảm bảo LLM luôn trích dẫn nguồn khi sử dụng thông tin từ RAG
-5. **Học hỏi từ best practices:** Case 17 RAG đạt 0.00% JD và có trích dẫn đầy đủ - nên phân tích và áp dụng cách tiếp cận này cho các case khác
-6. **Tối ưu hóa cho các nhóm bệnh lý khác nhau:** 
-   - Ngoại tâm thu thất: cải thiện tốt về trích dẫn (100% có nguồn)
-   - Block nhánh phải: cần cải thiện consistency (chỉ 66.67% có trích dẫn)
-   - Chênh xuống đoạn ST: tốt về trích dẫn (100%) nhưng JD cao hơn
+1. **Cải thiện consistency:** Đảm bảo 100% output RAG đều có trích dẫn nguồn (hiện tại đạt 77.78%, còn 8 case chưa có: cases 5, 6, 7, 8, 9, 20, 27, 33)
+2. **Tăng cường retrieval cho các bệnh lý cụ thể:** Cần cải thiện đặc biệt cho nhóm Nhịp chậm (Bradycardia - 0% có trích dẫn), Cuồng nhĩ (Atrial Flutter - 33% có trích dẫn), và một số case lẻ trong các nhóm khác
+3. **Tăng cường giải thích thuật ngữ:** Mặc dù đã có case đạt 0.00% JD và JD trung bình giảm nhẹ, cần đảm bảo các thuật ngữ y khoa như HRV, QRS, RMSSD đều được giải thích ở lần đầu tiên xuất hiện trong mọi case
+4. **Kiểm tra retrieval quality:** Các case thiếu trích dẫn tập trung ở Nhịp chậm (100% thiếu), Cuồng nhĩ (67% thiếu) và một số case lẻ khác có thể do retrieval không tìm được tài liệu phù hợp hoặc LLM không sử dụng nguồn đã truy xuất
+5. **Standardize prompting:** Cần cải thiện prompt để đảm bảo LLM luôn trích dẫn nguồn khi sử dụng thông tin từ RAG
+6. **Học hỏi từ best practices:** Case 17 RAG đạt 0.00% JD và có trích dẫn đầy đủ - nên phân tích và áp dụng cách tiếp cận này cho các case khác
+7. **Bổ sung kiến thức vào RAG:** Cần kiểm tra xem cơ sở tri thức RAG có đủ tài liệu về Nhịp chậm và Cuồng nhĩ hay không, nếu thiếu cần bổ sung thêm
 
 ### So sánh với mục tiêu ban đầu:
-- ✅ **Đạt được xuất sắc:** RAG giúp câu trả lời cụ thể và giàu thông tin hơn (93.33% có trích dẫn, số liệu tham chiếu cụ thể)
-- ✅ **Đạt được xuất sắc:** RAG giảm rủi ro hallucination xuống chỉ còn 6.67% (từ 100%)
-- ✅ **Đạt được tốt:** Consistency cao (93.33% case RAG có trích dẫn nguồn)
-- ⚠️ **Cần cải thiện:** Jargon Density không có sự khác biệt đáng kể (đều 0.95%)
+- ✅ **Đạt được tốt:** RAG giúp câu trả lời cụ thể và giàu thông tin hơn (77.78% có trích dẫn, số liệu tham chiếu cụ thể)
+- ✅ **Đạt được xuất sắc:** RAG giảm rủi ro hallucination xuống còn 22.22% (từ 100%)
+- ⚠️ **Cần cải thiện:** Consistency chưa đủ cao (77.78% case RAG có trích dẫn nguồn, cần đạt >90%)
+- ✅ **Cải thiện nhẹ:** Jargon Density giảm từ 0.93% xuống 0.88% (giảm 0.05 điểm phần trăm)
 
 ### Đánh giá tổng quan:
 Pipeline With-RAG thể hiện sự vượt trội rõ rệt so với No-RAG:
-- **Về độ tin cậy:** Từ 0% lên 93.33% case có nguồn trích dẫn (tăng 93.33 điểm phần trăm)
-- **Về khả năng giải thích:** Không có sự khác biệt về JD trung bình, nhưng RAG đạt được case tốt nhất (0.00% vs 0.37%)
-- **Về tính nhất quán:** 93.33% case RAG có trích dẫn nguồn rõ ràng, trong khi No-RAG không có case nào có trích dẫn
+- **Về độ tin cậy:** Từ 0% lên 77.78% case có nguồn trích dẫn (tăng 77.78 điểm phần trăm)
+- **Về khả năng giải thích:** JD trung bình giảm từ 0.93% xuống 0.88%, và RAG đạt được case tốt nhất (0.00% vs 0.37%)
+- **Về tính nhất quán:** 77.78% case RAG có trích dẫn nguồn rõ ràng, trong khi No-RAG không có case nào có trích dẫn
+- **Về chất lượng thông tin:** RAG cung cấp số liệu tham chiếu cụ thể (QRS duration, HR range) và giải thích y khoa chi tiết hơn
+
+**Khuyến nghị ưu tiên cao nhất:** Tập trung cải thiện retrieval và prompting cho nhóm bệnh lý Nhịp chậm (Bradycardia - 0% có trích dẫn) và Cuồng nhĩ (Atrial Flutter - 33% có trích dẫn) để nâng tỷ lệ có trích dẫn từ 77.78% lên 90-100%.
 
 Kết quả này chứng minh rõ ràng hiệu quả của RAG trong việc cải thiện chất lượng thông tin y tế, đặc biệt về tính chính xác và khả năng truy xuất nguồn. Tuy nhiên, cần tiếp tục cải thiện để đạt 100% case có trích dẫn nguồn và giảm thiểu jargon chưa giải thích.
