@@ -38,6 +38,12 @@ Dựa trên kịch bản trong [script2/script_content.tex](script2/script_conte
 | 22 | Ngoại tâm thu thất (PVC) | 200 | 0 | 0.00 | Không | 1 | Mô tả "xung điện bổ sung từ buồng thất" dễ hiểu. |
 | 23 | Ngoại tâm thu thất (PVC) | 195 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
 | 24 | Ngoại tâm thu thất (PVC) | 210 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
+| 25 | Block nhánh phải (RBBB) | 220 | 0 | 0.00 | Không | 1 | Giải thích tốt, phát hiện mâu thuẫn QRS hẹp. |
+| 26 | Block nhánh phải (RBBB) | 210 | 0 | 0.00 | Không | 1 | Giải thích QRS, Block nhánh phải rõ ràng. |
+| 27 | Block nhánh phải (RBBB) | 230 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
+| 28 | Chênh xuống đoạn ST | 210 | 0 | 0.00 | Không | 1 | Giải thích ST, QRS dễ hiểu. |
+| 29 | Chênh xuống đoạn ST | 200 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
+| 30 | Chênh xuống đoạn ST | 190 | 0 | 0.00 | Không | 1 | Không có nguồn trích dẫn. |
 
 ## Kết quả chi tiết (With-RAG, Case 1–6)
 
@@ -67,6 +73,12 @@ Dựa trên kịch bản trong [script2/script_content.tex](script2/script_conte
 | 22 | Ngoại tâm thu thất (PVC) | 220 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**" về tiêu chuẩn QRS rộng >120ms. |
 | 23 | Ngoại tâm thu thất (PVC) | 230 | 0 | 0.00 | Có | 0 | Trích dẫn rõ ràng: "**Theo hướng dẫn y khoa (StatPearls)**". |
 | 24 | Ngoại tâm thu thất (PVC) | 225 | 0 | 0.00 | Có | 0 | Trích dẫn: "**theo hướng dẫn y khoa**". |
+| 25 | Block nhánh phải (RBBB) | 210 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**" về tiêu chuẩn QRS > 120ms. |
+| 26 | Block nhánh phải (RBBB) | 220 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". |
+| 27 | Block nhánh phải (RBBB) | 230 | 0 | 0.00 | Có | 0 | Trích dẫn: "**Theo hướng dẫn y khoa**". |
+| 28 | Chênh xuống đoạn ST | 220 | 0 | 0.00 | Có | 0 | Trích dẫn: "**theo các tài liệu y khoa**". |
+| 29 | Chênh xuống đoạn ST | 210 | 0 | 0.00 | Có | 0 | Trích dẫn: "**theo hướng dẫn y khoa**". |
+| 30 | Chênh xuống đoạn ST | 230 | 0 | 0.00 | Có | 0 | Trích dẫn cụ thể: "**theo thông tin y khoa từ litfl.com**". |
 
 ---
 
