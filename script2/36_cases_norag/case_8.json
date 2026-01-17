@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 52.17,
+      "hrv_rmssd": 14.595,
+      "qrs_duration": 0.115,
+      "r_amplitude": 5.402,
+      "r_peaks_count": 7,
+      "signal_energy": 1373.9843
+    },
+    "probability": 0.9998,
+    "diagnosis": "Nhịp chậm (Bradycardia)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy nhịp tim của bạn đang chậm hơn mức bình thường, nhưng vẫn đều đặn.",
+    "details": "Hình ảnh sóng điện tim cho thấy các nhịp đập của tim diễn ra đều đặn, nhưng khoảng cách giữa các nhịp khá dài, phản ánh nhịp tim chậm. Cụ thể, nhịp tim hiện tại của bạn là 52.17 lần/phút, thấp hơn mức chuẩn thông thường (60-100 lần/phút). Tuy nhiên, thời gian dẫn truyền tín hiệu điện qua các buồng dưới của tim (QRS 0.115 giây) vẫn nằm trong giới hạn bình thường, cho thấy đường dẫn truyền điện của tim hoạt động ổn định, không có dấu hiệu tắc nghẽn đáng kể.",
+    "recommendations": "Nhịp tim chậm có thể là một tình trạng bình thường ở một số người, đặc biệt là vận động viên hoặc khi bạn đang ngủ sâu. Bạn nên theo dõi cơ thể để xem có bất kỳ triệu chứng nào kèm theo không, ví dụ như cảm thấy chóng mặt, mệt mỏi bất thường, khó thở hoặc ngất xỉu.",
+    "risk_level": "low",
+    "next_steps": "Nếu bạn không có bất kỳ triệu chứng khó chịu nào, bạn có thể đề cập tình trạng này với bác sĩ trong lần khám sức khỏe định kỳ tiếp theo. Tuy nhiên, nếu bạn xuất hiện các triệu chứng như chóng mặt, mệt mỏi nhiều, khó thở hoặc ngất xỉu, hãy đến bệnh viện hoặc phòng khám tim mạch ngay lập tức để được kiểm tra."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 53.42,
+      "hrv_rmssd": 42.249,
+      "qrs_duration": 0.112,
+      "r_amplitude": 5.828,
+      "r_peaks_count": 8,
+      "signal_energy": 771.6525
+    },
+    "probability": 1.0,
+    "diagnosis": "Nhịp chậm (Bradycardia)"
+  },
+  "explanation": {
+    "summary": "Kết quả phân tích điện tim cho thấy nhịp tim của bạn chậm hơn mức bình thường (Nhịp chậm).",
+    "details": "Hình ảnh sóng điện tim cho thấy các nhịp đập cách xa nhau, nhưng đều đặn, với hình dạng sóng QRS bình thường. Nhịp tim hiện tại là 53.42 lần/phút, thấp hơn mức chuẩn thông thường là 60-100 lần/phút. Tuy nhiên, thời gian dẫn truyền điện tim (QRS 0.112s) vẫn nằm trong giới hạn bình thường, cho thấy đường dẫn truyền điện trong các buồng tim dưới hoạt động ổn định và không có dấu hiệu bất thường nghiêm trọng. Điều này có nghĩa là mặc dù tim đập chậm, nhưng cách thức dẫn truyền điện của tim vẫn diễn ra theo một quy trình bình thường.",
+    "recommendations": "Nhịp tim chậm có thể là một tình trạng bình thường ở một số người khỏe mạnh, đặc biệt là các vận động viên chuyên nghiệp. Tuy nhiên, nếu bạn cảm thấy mệt mỏi, chóng mặt, khó thở, đau ngực hoặc có bất kỳ triệu chứng nào khác, bạn cần thông báo ngay cho bác sĩ. Tránh các yếu tố có thể làm chậm nhịp tim thêm nếu bạn không chắc chắn về nguyên nhân.",
+    "risk_level": "medium",
+    "next_steps": "Bạn nên sắp xếp một cuộc hẹn với bác sĩ chuyên khoa tim mạch để đánh giá nguyên nhân nhịp tim chậm của mình và xem xét liệu có cần điều trị hay không, đặc biệt nếu bạn có bất kỳ triệu chứng nào đi kèm."
+  }
+}

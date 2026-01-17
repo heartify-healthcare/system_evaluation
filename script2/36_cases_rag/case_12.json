@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 56.83,
+      "hrv_rmssd": 134.183,
+      "qrs_duration": 0.106,
+      "r_amplitude": 7.56,
+      "r_peaks_count": 9,
+      "signal_energy": 1194.9593
+    },
+    "probability": 1.0,
+    "diagnosis": "Block nhĩ thất độ I (First-degree Atrioventricular Block)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy có sự chậm trễ trong dẫn truyền tín hiệu điện từ tâm nhĩ xuống tâm thất (Block nhĩ thất độ I), nhưng tất cả các nhịp tim vẫn được dẫn truyền thành công.",
+    "details": "Hình ảnh sóng điện tim cho thấy mỗi sóng P (đại diện cho sự co bóp của tâm nhĩ) đều được theo sau bởi một phức bộ QRS (đại diện cho sự co bóp của tâm thất), tuy nhiên khoảng thời gian PR (thời gian dẫn truyền tín hiệu từ tâm nhĩ xuống tâm thất) kéo dài một cách nhất quán. Theo hướng dẫn y khoa, tình trạng này được gọi là Block nhĩ thất độ I, khi khoảng PR kéo dài trên 200 ms nhưng không có nhịp nào bị bỏ qua. Nhịp tim của bạn là 56.83 lần/phút, hơi thấp hơn mức bình thường (60-100 lần/phút), nhưng vẫn nằm trong giới hạn cho phép của nhiều người khỏe mạnh khi nghỉ ngơi. Thời gian phức bộ QRS là 0.106 giây, cho thấy quá trình co bóp của tâm thất diễn ra bình thường, không có dấu hiệu tắc nghẽn.",
+    "recommendations": "Block nhĩ thất độ I thường là tình trạng lành tính và không gây ra triệu chứng hoặc cần điều trị đặc hiệu. Tuy nhiên, bạn nên tiếp tục theo dõi sức khỏe tổng quát và thông báo cho bác sĩ nếu có bất kỳ triệu chứng mới nào như chóng mặt hoặc ngất xỉu.",
+    "risk_level": "low",
+    "next_steps": "Bạn nên tái khám định kỳ theo lịch của bác sĩ để theo dõi diễn biến của tình trạng này. Không cần hành động khẩn cấp trừ khi xuất hiện các triệu chứng mới."
+  }
+}

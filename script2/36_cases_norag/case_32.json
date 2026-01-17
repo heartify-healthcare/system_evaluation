@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 95.37,
+      "hrv_rmssd": 6.034,
+      "qrs_duration": 0.063,
+      "r_amplitude": 5.494,
+      "r_peaks_count": 15,
+      "signal_energy": 1618.072
+    },
+    "probability": 0.9999,
+    "diagnosis": "Chênh lên đoạn ST (ST Elevation)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy có dấu hiệu chênh lên đoạn ST, đây là một phát hiện quan trọng cần được đánh giá y tế khẩn cấp.",
+    "details": "Hình ảnh sóng điện tim cho thấy đoạn ST, phần sóng phản ánh giai đoạn nghỉ của tim giữa hai lần co bóp, bị nâng cao rõ rệt so với đường cơ sở. Điều này thường là dấu hiệu cho thấy một phần cơ tim có thể đang bị thiếu máu nghiêm trọng, có nguy cơ hoặc đang bị nhồi máu cơ tim (cơn đau tim). Nhịp tim của bạn là 95.37 lần/phút, nằm trong giới hạn bình thường. Thời gian dẫn truyền điện tim (QRS 0.063s) cũng bình thường, nhưng việc chênh lên đoạn ST là vấn đề cần được ưu tiên xử lý ngay lập tức.",
+    "recommendations": "Bạn cần đến bệnh viện ngay lập tức để được bác sĩ chuyên khoa tim mạch thăm khám, chẩn đoán chính xác và can thiệp kịp thời. Không nên trì hoãn.",
+    "risk_level": "high",
+    "next_steps": "Tìm kiếm sự trợ giúp y tế khẩn cấp (gọi cấp cứu hoặc đến thẳng phòng cấp cứu bệnh viện) để được kiểm tra và điều trị kịp thời, vì đây có thể là dấu hiệu của một tình trạng tim mạch nghiêm trọng."
+  }
+}

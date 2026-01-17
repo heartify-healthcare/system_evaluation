@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 89.89,
+      "hrv_rmssd": 157.708,
+      "qrs_duration": 0.067,
+      "r_amplitude": 5.502,
+      "r_peaks_count": 14,
+      "signal_energy": 1319.5325
+    },
+    "probability": 1.0,
+    "diagnosis": "Ngoại tâm thu nhĩ (Premature Atrial Contraction)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy tim bạn có những nhịp đập sớm hơn bình thường, xuất phát từ buồng nhĩ. Đây là tình trạng Ngoại tâm thu nhĩ.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp đập của tim chủ yếu đều đặn, nhưng có vài nhịp xuất hiện sớm hơn bình thường. Cụ thể, nhịp tim của bạn là 89.89 lần/phút, nằm trong mức an toàn (60-100 lần/phút). Hiện tượng 'Ngoại tâm thu nhĩ' là khi một tín hiệu điện được phát ra từ buồng tim phía trên (tâm nhĩ) sớm hơn so với nhịp bình thường, khiến tim co bóp sớm một nhịp. Các sóng QRS (phản ánh sự co bóp của buồng tim dưới) đều hẹp với thời gian 0.067 giây, cho thấy tín hiệu điện truyền qua các buồng này rất nhanh và bình thường. Theo hướng dẫn y khoa về Premature Atrial Contractions, các nhịp ngoại tâm thu nhĩ đơn độc thường không đáng lo ngại nếu không kèm theo triệu chứng nặng.",
+    "recommendations": "Bạn nên theo dõi cơ thể, tránh các yếu tố kích thích như cà phê, trà đặc, rượu bia, hoặc căng thẳng quá mức, vì chúng có thể làm tăng số lượng nhịp ngoại tâm thu. Đảm bảo ngủ đủ giấc và duy trì lối sống lành mạnh.",
+    "risk_level": "low",
+    "next_steps": "Nếu bạn cảm thấy tim đập nhanh, hồi hộp, khó thở hoặc đau ngực thường xuyên, hãy đi khám bác sĩ để được kiểm tra kỹ hơn. Trong trường hợp không có triệu chứng gì, không cần quá lo lắng, nhưng việc kiểm tra sức khỏe định kỳ vẫn được khuyến nghị."
+  }
+}

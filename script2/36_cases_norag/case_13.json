@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 95.48,
+      "hrv_rmssd": 9.156,
+      "qrs_duration": 0.063,
+      "r_amplitude": 3.931,
+      "r_peaks_count": 14,
+      "signal_energy": 1417.5783
+    },
+    "probability": 1.0,
+    "diagnosis": "Block nhánh trái (Left Bundle Branch Block)"
+  },
+  "explanation": {
+    "summary": "Kết quả phân tích điện tim cho thấy có chẩn đoán 'Block nhánh trái'. Tuy nhiên, các chỉ số đo được và hình ảnh sóng điện tim cho thấy sự không nhất quán với chẩn đoán này, đặc biệt là về thời gian dẫn truyền điện tim.",
+    "details": "Chẩn đoán từ hệ thống là 'Block nhánh trái' (Block nhánh trái là tình trạng tín hiệu điện đến buồng tim bên trái bị chậm lại, thường làm cho sóng điện tim QRS trở nên rộng hơn 0.12 giây). Tuy nhiên, thời gian dẫn truyền điện tim (QRS duration) của bạn là 0.063 giây, nằm trong giới hạn bình thường (0.06-0.10 giây). Hình ảnh sóng điện tim cho thấy nhịp tim đều và các phức bộ QRS trông khá hẹp, không có dấu hiệu điển hình của Block nhánh trái như sóng QRS rộng hoặc có hình dạng bất thường rõ rệt. Nhịp tim của bạn là 95.48 lần/phút, vẫn trong mức bình thường (60-100 lần/phút). Chỉ số biến thiên nhịp tim (HRV) là 9.156 ms, khá thấp, có thể cho thấy khả năng điều chỉnh nhịp tim của cơ thể đang giảm.",
+    "recommendations": "Do có sự không nhất quán giữa chẩn đoán và các chỉ số điện tim, bạn nên tham khảo ý kiến bác sĩ chuyên khoa tim mạch để được đánh giá và chẩn đoán chính xác hơn. Bác sĩ có thể cần thực hiện thêm các xét nghiệm khác.",
+    "risk_level": "medium",
+    "next_steps": "Đặt lịch hẹn khám tim mạch trong thời gian sớm nhất để được bác sĩ xem xét lại toàn bộ kết quả điện tim và có thể chỉ định thêm các xét nghiệm chuyên sâu hơn như siêu âm tim hoặc điện tâm đồ 12 chuyển đạo để xác định chính xác tình trạng."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 98.38,
+      "hrv_rmssd": 202.645,
+      "qrs_duration": 0.061,
+      "r_amplitude": 6.375,
+      "r_peaks_count": 15,
+      "signal_energy": 1315.4029
+    },
+    "probability": 1.0,
+    "diagnosis": "Ngoại tâm thu thất (Premature Ventricular Contraction)"
+  },
+  "explanation": {
+    "summary": "Phát hiện có nhịp tim đập sớm từ buồng thất (ngoại tâm thu thất), nhưng nhịp tim trung bình vẫn trong giới hạn bình thường.",
+    "details": "Hình ảnh sóng điện tim cho thấy có những nhịp đập sớm (khoảng 3 nhịp trong 10 giây) xuất hiện không đều, xen kẽ giữa các nhịp tim bình thường. Các nhịp đập sớm này có hình dạng rộng hơn và khác thường so với nhịp tim thông thường. Điều này có nghĩa là có những tín hiệu điện phát ra từ buồng tim phía dưới (tâm thất) sớm hơn dự kiến, gây ra một nhịp đập thừa. Nhịp tim trung bình của bạn là 98.38 lần/phút, nằm trong giới hạn bình thường (60-100 lần/phút). Thời gian dẫn truyền điện tim cho các nhịp đập bình thường là 0.061s, cho thấy hệ thống dẫn truyền điện của tim hoạt động hiệu quả đối với những nhịp này.",
+    "recommendations": "Ngoại tâm thu thất thường gặp và có thể do căng thẳng, thiếu ngủ, uống cà phê, rượu bia hoặc do mất cân bằng điện giải. Trong nhiều trường hợp, chúng không gây nguy hiểm. Bạn nên theo dõi cơ thể, tránh các yếu tố kích thích nếu có thể, và duy trì lối sống lành mạnh.",
+    "risk_level": "low",
+    "next_steps": "Nếu bạn cảm thấy hồi hộp, đau ngực, khó thở hoặc chóng mặt kèm theo các nhịp đập sớm này, hoặc nếu chúng xuất hiện thường xuyên hơn, bạn nên đi khám bác sĩ chuyên khoa tim mạch để được đánh giá kỹ hơn. Việc kiểm tra sức khỏe định kỳ cũng là một bước cần thiết để đảm bảo tim mạch khỏe mạnh."
+  }
+}

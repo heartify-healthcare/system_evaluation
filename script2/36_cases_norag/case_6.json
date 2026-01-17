@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 107.54,
+      "hrv_rmssd": 198.813,
+      "qrs_duration": 0.056,
+      "r_amplitude": 5.579,
+      "r_peaks_count": 16,
+      "signal_energy": 1384.5966
+    },
+    "probability": 1.0,
+    "diagnosis": "Cuồng nhĩ (Atrial Flutter)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy tim bạn đang có tình trạng Cuồng nhĩ, nghĩa là tâm nhĩ đập rất nhanh và đều. Nhịp tim hiện tại là 107.54 lần/phút.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim đều nhưng nhanh, với các sóng QRS hẹp (0.056s), cho thấy buồng tim dưới (tâm thất) co bóp bình thường. Tuy nhiên, có những sóng nhỏ, đều đặn và nhanh xuất hiện giữa các nhịp đập chính, tạo thành hình ảnh như \"răng cưa\" (sóng flutter) ở tâm nhĩ (buồng trên của tim). Điều này có nghĩa là tâm nhĩ đang co bóp rất nhanh, khoảng 250-350 lần mỗi phút, nhưng chỉ một phần các tín hiệu này được truyền xuống tâm thất, dẫn đến nhịp tim của bạn là 107.54 lần/phút. Tình trạng này khác với nhịp tim bình thường và cần được theo dõi.",
+    "recommendations": "Bạn cần gặp bác sĩ chuyên khoa tim mạch càng sớm càng tốt để được đánh giá kỹ lưỡng và lên kế hoạch điều trị phù hợp. Trong thời gian này, tránh các hoạt động gắng sức, hạn chế cà phê, rượu bia và các chất kích thích.",
+    "risk_level": "medium",
+    "next_steps": "Đặt lịch hẹn với bác sĩ tim mạch trong vòng vài ngày tới. Nếu bạn cảm thấy đau ngực, khó thở nghiêm trọng, chóng mặt hoặc ngất xỉu, hãy đến bệnh viện ngay lập tức."
+  }
+}

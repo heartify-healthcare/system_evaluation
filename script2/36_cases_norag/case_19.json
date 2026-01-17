@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 69.83,
+      "hrv_rmssd": 206.661,
+      "qrs_duration": 0.086,
+      "r_amplitude": 6.579,
+      "r_peaks_count": 11,
+      "signal_energy": 1390.1121
+    },
+    "probability": 1.0,
+    "diagnosis": "Ngoại tâm thu nhĩ (Premature Atrial Contraction)"
+  },
+  "explanation": {
+    "summary": "Điện tâm đồ của bạn cho thấy có những nhịp tim đập sớm hơn bình thường từ buồng trên của tim (Ngoại tâm thu nhĩ), nhưng nhịp tim tổng thể vẫn ổn định.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim của bạn chủ yếu đều đặn, với nhịp trung bình là 69.83 lần/phút, nằm trong giới hạn bình thường (60-100 lần/phút). Tuy nhiên, có những lúc tim đập sớm hơn một chút so với nhịp đều đặn, như có thể quan sát thấy rõ ràng trên biểu đồ sóng. Điều này được gọi là ngoại tâm thu nhĩ, có nghĩa là có một xung điện phát ra sớm từ tâm nhĩ (hai buồng trên của tim) trước khi nhịp tim bình thường diễn ra. Thời gian dẫn truyền điện tim qua các buồng dưới (QRS) là 0.086 giây, vẫn trong mức an toàn, cho thấy các buồng tim dưới vẫn co bóp bình thường. Ngoại tâm thu nhĩ thường lành tính và không gây nguy hiểm, và các chỉ số khác đều ổn định.",
+    "recommendations": "Bạn nên theo dõi cơ thể mình. Nếu cảm thấy hồi hộp, tim đập thình thịch, hoặc có bất kỳ triệu chứng khó chịu nào, hãy ghi lại thời điểm và mức độ. Hạn chế các chất kích thích như cà phê, trà đặc, rượu bia và tránh căng thẳng, vì chúng có thể làm tăng các nhịp ngoại tâm thu.",
+    "risk_level": "low",
+    "next_steps": "Nếu bạn thường xuyên cảm thấy các nhịp tim bất thường hoặc có thêm các triệu chứng như khó thở, đau ngực, chóng mặt, hãy tái khám để được bác sĩ đánh giá kỹ hơn. Trong trường hợp không có triệu chứng, thường không cần điều trị đặc biệt."
+  }
+}

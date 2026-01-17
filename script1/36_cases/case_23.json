@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 60.88,
+      "hrv_rmssd": 524.567,
+      "qrs_duration": 0.099,
+      "r_amplitude": 7.744,
+      "r_peaks_count": 10,
+      "signal_energy": 1372.2427
+    },
+    "probability": 1.0,
+    "diagnosis": "Ngoại tâm thu thất (Premature Ventricular Contraction)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy có tình trạng ngoại tâm thu thất, tức là tim có những nhịp đập bổ sung bất thường, nhưng nhịp tim trung bình vẫn trong giới hạn an toàn.",
+    "details": "Hình ảnh sóng điện tim cho thấy có những nhịp đập xuất hiện sớm và có hình dạng khác biệt rõ rệt (rộng và biến dạng) so với các nhịp tim thông thường. Đây là dấu hiệu của ngoại tâm thu thất, tức là có những tín hiệu điện bổ sung phát ra từ buồng tim dưới (tâm thất) khiến tim co bóp sớm hơn dự kiến. Theo hướng dẫn y khoa (StatPearls), các phức bộ QRS của ngoại tâm thu thất thường kéo dài hơn 120 mili giây (0.12s) do đường dẫn truyền điện bất thường, điều này phù hợp với hình ảnh các sóng rộng bất thường trên biểu đồ của bạn. Mặc dù nhịp tim trung bình của bạn là 60.88 lần/phút, nằm trong giới hạn bình thường, sự xuất hiện của các nhịp ngoại tâm thu này có thể khiến bạn cảm thấy tim đập không đều. Thời gian dẫn truyền QRS của các nhịp bình thường là 0.099s, vẫn trong giới hạn an toàn. Chỉ số biến thiên nhịp tim (HRV RMSSD) cao ở mức 524.567 ms cũng phản ánh sự thay đổi đáng kể giữa các nhịp tim do sự hiện diện của các nhịp ngoại tâm thu.",
+    "recommendations": "Bạn nên theo dõi các triệu chứng như cảm giác hụt hẫng, tim đập mạnh hoặc bỏ nhịp. Tránh các chất kích thích như cà phê, trà đặc, rượu, và hạn chế căng thẳng. Đảm bảo ngủ đủ giấc.",
+    "risk_level": "medium",
+    "next_steps": "Bạn nên sắp xếp một cuộc hẹn với bác sĩ chuyên khoa tim mạch để được đánh giá kỹ lưỡng hơn về tần suất và mức độ của các nhịp ngoại tâm thu, cũng như xác định nguyên nhân và liệu pháp điều trị phù hợp nếu cần thiết."
+  }
+}

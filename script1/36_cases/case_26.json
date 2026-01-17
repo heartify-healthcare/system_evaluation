@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 79.01,
+      "hrv_rmssd": 43.173,
+      "qrs_duration": 0.076,
+      "r_amplitude": 6.494,
+      "r_peaks_count": 12,
+      "signal_energy": 1345.4135
+    },
+    "probability": 1.0,
+    "diagnosis": "Block nhánh phải (Right Bundle Branch Block)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy có dấu hiệu của 'Block nhánh phải'. Tuy nhiên, thời gian dẫn truyền điện tim của bạn vẫn trong giới hạn bình thường, điều này thường không đáng lo ngại.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim đều đặn. Nhịp tim của bạn là 79.01 lần/phút, nằm trong mức bình thường (60-100 lần/phút). Chỉ số điện tâm đồ gợi ý có sự thay đổi nhỏ trong đường dẫn truyền điện ở nhánh phải của tim (gọi là 'Block nhánh phải'). Tuy nhiên, điều quan trọng là thời gian dẫn truyền xung điện qua các buồng tim (QRS duration) của bạn là 0.076 giây, vẫn trong phạm vi bình thường (dưới 0.12 giây). Theo hướng dẫn y khoa, khi thời gian QRS bình thường, một số dạng 'Block nhánh phải' có thể là một biến thể bình thường và không có ý nghĩa lâm sàng, đặc biệt khi không có triệu chứng đi kèm.",
+    "recommendations": "Với các chỉ số hiện tại, tình trạng 'Block nhánh phải' của bạn có vẻ là một dạng nhẹ hoặc biến thể bình thường, không yêu cầu điều trị khẩn cấp. Bạn nên duy trì lối sống lành mạnh, ăn uống cân bằng và tập thể dục đều đặn.",
+    "risk_level": "low",
+    "next_steps": "Nếu bạn không có bất kỳ triệu chứng nào như đau ngực, khó thở hay chóng mặt, bạn không cần quá lo lắng. Tuy nhiên, để yên tâm hơn, bạn có thể tham khảo ý kiến bác sĩ tim mạch để được đánh giá tổng thể và xác định nguyên nhân nếu có, đặc biệt nếu bạn có bất kỳ tiền sử bệnh lý tim mạch nào khác."
+  }
+}

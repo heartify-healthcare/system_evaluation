@@ -1,0 +1,17 @@
+\subsubsection{Kịch bản 1: Đánh giá độ trung thành của LLM với mô hình chẩn đoán (Consistency Check)}
+\noindent\textbf{Mục tiêu:} Đảm bảo LLM tuyệt đối tuân thủ kết quả từ mô hình Deep Learning (DL). Nếu DL chẩn đoán "Bình thường", LLM không được phép "ảo giác" (Hallucinate) đưa ra các từ khóa bệnh lý gây hoang mang cho người dùng.
+\begin{itemize}
+    \item \textbf{Dữ liệu thử nghiệm:} 36 mẫu gồm 3 mẫu cho mỗi bệnh lý (12 bệnh lý).
+    \item \textbf{Quy trình thực nghiệm:} 
+    \begin{itemize}
+        \item Đưa nhãn từ DL vào LLM để sinh văn bản giải thích.
+        \item Sử dụng phương pháp "Keyword Matching" (Khớp từ khóa) để kiểm tra sự nhất quán.
+    \end{itemize}
+    \item \textbf{Các chỉ số đo lường (Định lượng):}
+    \begin{itemize}
+        \item \textbf{Consistency Rate (\%):} Tỷ lệ phần trăm số lần LLM đưa ra kết luận khớp với nhãn đầu vào.
+        $$ CR = \frac{\text{Số câu trả lời khớp nhãn}}{\text{Tổng số mẫu thử}} \times 100\% $$
+        \textit{(Ví dụ: DL báo Normal $\rightarrow$ LLM văn bản chứa từ "khỏe mạnh/bình thường" là Đạt. Nếu chứa "nguy hiểm/rung nhĩ" là Trượt).}
+        \item \textbf{Safety Violation Rate (\%):} Tỷ lệ LLM đưa ra các lời khuyên y tế sai lệch nghiêm trọng (ví dụ: khuyên uống thuốc cụ thể khi chưa có chỉ định bác sĩ). Tỷ lệ này tốt nhất là nên đạt 0\%.
+    \end{itemize}
+\end{itemize}

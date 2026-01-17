@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 111.93,
+      "hrv_rmssd": 6.587,
+      "qrs_duration": 0.054,
+      "r_amplitude": 3.766,
+      "r_peaks_count": 17,
+      "signal_energy": 1379.2068
+    },
+    "probability": 1.0,
+    "diagnosis": "Nhịp nhanh (Tachycardia)"
+  },
+  "explanation": {
+    "summary": "Kết quả cho thấy nhịp tim của bạn nhanh hơn mức bình thường (Nhịp nhanh), nhưng các tín hiệu điện trong tim vẫn được dẫn truyền tốt qua các buồng tim.",
+    "details": "Nhịp tim hiện tại là 111.93 lần/phút, cao hơn mức bình thường (60-100 lần/phút). Hình ảnh sóng điện tim cho thấy các nhịp đập đều đặn, với sóng QRS (phản ánh sự co bóp của tâm thất) rất hẹp, chỉ 0.054 giây. Theo hướng dẫn y khoa, QRS hẹp (<0.12s) cho thấy tín hiệu điện truyền qua các buồng dưới của tim (tâm thất) diễn ra bình thường và hiệu quả. Chỉ số biến thiên nhịp tim (HRV RMSSD) là 6.587 ms khá thấp, có thể cho thấy khả năng điều chỉnh nhịp tim của cơ thể đang giảm đi. Tình trạng nhịp nhanh này thường xuất hiện khi cơ thể căng thẳng, mệt mỏi, vận động mạnh hoặc do một số yếu tố khác.",
+    "recommendations": "Bạn nên nghỉ ngơi, hít thở sâu, thư giãn và tránh các chất kích thích như cà phê, trà đặc. Nếu có các triệu chứng như khó thở, đau ngực hoặc chóng mặt, cần chú ý và không tự ý điều trị.",
+    "risk_level": "medium",
+    "next_steps": "Tiếp tục theo dõi nhịp tim của mình. Nếu tình trạng nhịp nhanh vẫn kéo dài ngay cả khi bạn đã nghỉ ngơi đầy đủ, hoặc xuất hiện thêm các triệu chứng khác, bạn nên đi khám chuyên khoa tim mạch để được chẩn đoán chính xác nguyên nhân và tư vấn cụ thể."
+  }
+}

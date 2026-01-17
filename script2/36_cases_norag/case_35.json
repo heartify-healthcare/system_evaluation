@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 107.04,
+      "hrv_rmssd": 10.072,
+      "qrs_duration": 0.056,
+      "r_amplitude": 5.737,
+      "r_peaks_count": 16,
+      "signal_energy": 1334.6677
+    },
+    "probability": 1.0,
+    "diagnosis": "Nhịp nhanh (Tachycardia)"
+  },
+  "explanation": {
+    "summary": "Kết quả cho thấy nhịp tim của bạn đang đập nhanh hơn mức bình thường.",
+    "details": "Hình ảnh sóng điện tim cho thấy các nhịp đập đều đặn, nhưng nhanh. Nhịp tim hiện tại là 107.04 lần/phút, cao hơn mức chuẩn thông thường (60-100 lần/phút). Thời gian dẫn truyền điện tim qua buồng tim chính (phức bộ QRS) là 0.056 giây, cho thấy đường dẫn truyền điện trong tim hoạt động bình thường và nhanh chóng. Các sóng P, QRS và T trên điện tâm đồ đều rõ ràng, cho thấy tim đang hoạt động theo một nhịp ổn định nhưng với tốc độ nhanh hơn.",
+    "recommendations": "Bạn nên nghỉ ngơi đầy đủ, tránh các chất kích thích như cà phê, trà đậm và thuốc lá. Hít thở sâu và giữ tinh thần thoải mái có thể giúp làm chậm nhịp tim.",
+    "risk_level": "low",
+    "next_steps": "Theo dõi nhịp tim khi nghỉ ngơi. Nếu nhịp tim vẫn duy trì trên 100 lần/phút khi bạn đã thư giãn hoàn toàn hoặc nếu bạn cảm thấy khó thở, đau ngực, chóng mặt, hãy đến khám chuyên khoa tim mạch để được tư vấn thêm."
+  }
+}

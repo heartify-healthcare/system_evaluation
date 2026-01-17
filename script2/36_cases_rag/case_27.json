@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 84.55,
+      "hrv_rmssd": 13.721,
+      "qrs_duration": 0.071,
+      "r_amplitude": 6.376,
+      "r_peaks_count": 13,
+      "signal_energy": 1642.3644
+    },
+    "probability": 1.0,
+    "diagnosis": "Block nhánh phải (Right Bundle Branch Block)"
+  },
+  "explanation": {
+    "summary": "Kết quả phân tích điện tim cho thấy có chẩn đoán Block nhánh phải, nhưng các chỉ số cơ bản khác như nhịp tim và thời gian dẫn truyền điện tim (QRS) vẫn trong giới hạn bình thường.",
+    "details": "Nhịp tim của bạn là 84.55 lần/phút, nằm trong khoảng bình thường (60-100 lần/phút). Chẩn đoán Block nhánh phải (RBBB) thường chỉ ra rằng có sự chậm trễ trong đường dẫn truyền tín hiệu điện đến buồng tim phải. Theo hướng dẫn y khoa, Block nhánh phải hoàn toàn thường làm cho sóng điện tim đại diện cho sự co bóp của tâm thất (phức bộ QRS) trở nên rộng hơn 0.12 giây (120 mili giây). Tuy nhiên, chỉ số QRS của bạn là 0.071 giây, nằm trong giới hạn bình thường. Hình ảnh sóng điện tim cũng cho thấy các phức bộ QRS có vẻ hẹp và đều, không thể hiện rõ đặc điểm QRS rộng, điển hình của Block nhánh phải hoàn toàn.",
+    "recommendations": "Mặc dù có chẩn đoán Block nhánh phải từ AI, nhưng với chỉ số QRS bình thường và hình ảnh điện tim không điển hình cho Block nhánh phải hoàn toàn, tình trạng này có thể không nghiêm trọng ngay lập tức. Tuy nhiên, bạn nên tham khảo ý kiến bác sĩ chuyên khoa tim mạch để đánh giá thêm và xác định nguyên nhân chính xác.",
+    "risk_level": "low",
+    "next_steps": "Đặt lịch hẹn khám với bác sĩ tim mạch để được kiểm tra kỹ lưỡng hơn. Bác sĩ có thể yêu cầu làm thêm các xét nghiệm chuyên sâu để xác nhận tình trạng và đưa ra phương án quản lý phù hợp."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 85.46,
+      "hrv_rmssd": 435.965,
+      "qrs_duration": 0.07,
+      "r_amplitude": 1.465,
+      "r_peaks_count": 12,
+      "signal_energy": 1374.4492
+    },
+    "probability": 1.0,
+    "diagnosis": "Block nhánh trái (Left Bundle Branch Block)"
+  },
+  "explanation": {
+    "summary": "Hệ thống đã chẩn đoán 'Block nhánh trái', tuy nhiên, các chỉ số điện tim và hình ảnh sóng QRS của bạn không phù hợp với chẩn đoán này, cho thấy cần kiểm tra lại.",
+    "details": "Kết quả phân tích ban đầu cho thấy chẩn đoán là Block nhánh trái. Tuy nhiên, khi nhìn vào sóng điện tim, phức bộ QRS (đại diện cho sự co bóp của tâm thất) có thời gian là 0.07 giây. Thời gian này nằm trong giới hạn bình thường (thường dưới 0.12 giây) và hình ảnh sóng điện tim cũng xác nhận các phức bộ QRS hẹp, không giống với đặc điểm của Block nhánh trái. Theo hướng dẫn y khoa, Block nhánh trái thường tạo ra phức bộ QRS rộng (> 0.12 giây) và có hình dạng đặc trưng như sóng R rộng hoặc có khía, sóng Q vắng mặt ở các chuyển đạo bên (Litfl.com). Do đó, các chỉ số và hình ảnh hiện tại không ủng hộ chẩn đoán Block nhánh trái. Nhịp tim của bạn là 85.46 lần/phút, nằm trong khoảng bình thường.",
+    "recommendations": "Do có sự không nhất quán giữa chẩn đoán của hệ thống và các chỉ số điện tim thực tế, bạn nên tham khảo ý kiến bác sĩ tim mạch để có đánh giá chính xác nhất về tình trạng tim của mình. Tránh tự suy diễn hoặc lo lắng quá mức.",
+    "risk_level": "medium",
+    "next_steps": "Đặt lịch hẹn khám với bác sĩ chuyên khoa tim mạch càng sớm càng tốt. Bác sĩ sẽ xem xét toàn bộ điện tâm đồ, kết hợp với tiền sử bệnh và khám lâm sàng để đưa ra kết luận cuối cùng và tư vấn cụ thể cho bạn."
+  }
+}

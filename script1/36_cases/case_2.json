@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 67.89,
+      "hrv_rmssd": 234.347,
+      "qrs_duration": 0.088,
+      "r_amplitude": 7.051,
+      "r_peaks_count": 10,
+      "signal_energy": 1392.08
+    },
+    "probability": 1.0,
+    "diagnosis": "Rung nhĩ (Atrial Fibrillation)"
+  },
+  "explanation": {
+    "summary": "Kết quả phân tích điện tâm đồ và hình ảnh sóng điện tim cho thấy bạn đang có tình trạng Rung nhĩ, nhưng nhịp tim hiện tại đang trong giới hạn bình thường.",
+    "details": "Hình ảnh sóng điện tim cho thấy không có sóng P (sóng nhỏ thường xuất hiện trước mỗi nhịp tim) rõ ràng, thay vào đó là đường cơ sở không đều, và các khoảng cách giữa các nhịp tim (khoảng R-R) cũng không đều nhau. Theo hướng dẫn y khoa, đây là những đặc điểm điển hình của Rung nhĩ. Rung nhĩ là tình trạng các buồng tim phía trên (tâm nhĩ) đập nhanh và hỗn loạn thay vì co bóp nhịp nhàng, khiến tín hiệu điện tim trở nên rối loạn. Nhịp tim trung bình của bạn là 67.89 lần/phút, nằm trong khoảng bình thường (60-100 lần/phút), cho thấy nhịp thất đang được kiểm soát. Tuy nhiên, chỉ số biến thiên nhịp tim (HRV RMSSD) rất cao, ở mức 234.347 ms, khẳng định rằng các nhịp tim của bạn đập không đều. Thời gian dẫn truyền điện tim qua các buồng dưới (QRS) là 0.088 giây, vẫn trong giới hạn bình thường, cho thấy đường dẫn truyền điện chính của tim hoạt động tốt.",
+    "recommendations": "Tình trạng Rung nhĩ cần được theo dõi và điều trị bởi bác sĩ chuyên khoa tim mạch để kiểm soát nhịp tim và ngăn ngừa các biến chứng lâu dài. Bạn nên tránh các yếu tố kích thích như cà phê, rượu, và cố gắng duy trì lối sống lành mạnh.",
+    "risk_level": "medium",
+    "next_steps": "Bạn cần đặt lịch hẹn với bác sĩ tim mạch để được thăm khám kỹ lưỡng, xác định nguyên nhân và có kế hoạch điều trị phù hợp. Bác sĩ có thể cần thực hiện thêm các xét nghiệm khác."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 98.38,
+      "hrv_rmssd": 202.645,
+      "qrs_duration": 0.061,
+      "r_amplitude": 6.375,
+      "r_peaks_count": 15,
+      "signal_energy": 1315.4029
+    },
+    "probability": 1.0,
+    "diagnosis": "Ngoại tâm thu thất (Premature Ventricular Contraction)"
+  },
+  "explanation": {
+    "summary": "Hình ảnh sóng điện tim cho thấy tim bạn có những nhịp đập thêm sớm từ buồng dưới của tim (Ngoại tâm thu thất), khiến nhịp tim không hoàn toàn đều.",
+    "details": "Nhịp tim trung bình của bạn là 98.38 lần/phút, nằm trong giới hạn bình thường. Tuy nhiên, qua phân tích hình ảnh sóng điện tim, chúng tôi quan sát thấy có những nhịp đập xuất hiện sớm hơn dự kiến và có hình dạng khác biệt, rộng hơn rõ rệt so với các nhịp tim bình thường. Đây chính là các nhịp ngoại tâm thu thất. Mặc dù thời gian dẫn truyền điện tim cho các nhịp bình thường (QRS) được ghi nhận là 0.061s, nhưng theo hướng dẫn y khoa, các nhịp ngoại tâm thu thất thường có sóng QRS rộng hơn 0.12s (120ms) do tín hiệu điện phát ra từ buồng dưới của tim và lan truyền theo đường không chuyên biệt. Việc này có thể khiến bạn cảm thấy tim bị hẫng, đập mạnh hoặc bỏ nhịp.",
+    "recommendations": "Ngoại tâm thu thất thường lành tính, nhưng bạn nên hạn chế các chất kích thích như cà phê, trà, rượu bia và tránh căng thẳng. Đảm bảo ngủ đủ giấc và duy trì lối sống lành mạnh.",
+    "risk_level": "low",
+    "next_steps": "Bạn nên theo dõi các triệu chứng như hồi hộp, hụt hơi, chóng mặt. Nếu các triệu chứng này xuất hiện thường xuyên hoặc trở nên nặng hơn, hãy đến gặp bác sĩ tim mạch để được kiểm tra kỹ lưỡng hơn và xác định nguyên nhân."
+  }
+}

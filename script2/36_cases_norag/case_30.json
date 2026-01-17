@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 76.61,
+      "hrv_rmssd": 395.358,
+      "qrs_duration": 0.078,
+      "r_amplitude": 5.541,
+      "r_peaks_count": 12,
+      "signal_energy": 1394.5894
+    },
+    "probability": 0.9999,
+    "diagnosis": "Chênh xuống đoạn ST (ST Depression)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy có hiện tượng chênh xuống đoạn ST, một dấu hiệu cần được bác sĩ kiểm tra kỹ hơn.",
+    "details": "Hình ảnh điện tâm đồ cho thấy đoạn ST, phần sóng sau nhịp đập chính của tim, nằm thấp hơn đường cơ sở bình thường. Tình trạng chênh xuống đoạn ST thường gợi ý rằng cơ tim có thể đang không nhận đủ lượng máu và oxy cần thiết. Tuy nhiên, nhịp tim của bạn là 76.61 lần/phút, nằm trong giới hạn bình thường (60-100 lần/phút), và thời gian dẫn truyền điện tim (QRS 0.078 giây) cũng ổn định, cho thấy các tín hiệu điện cơ bản của tim vẫn hoạt động tốt.",
+    "recommendations": "Bạn nên tránh các hoạt động gắng sức, giữ tâm trạng thoải mái và hạn chế các chất kích thích như cà phê hay trà đậm. Nếu có triệu chứng đau ngực, khó thở hoặc chóng mặt, hãy tìm sự chăm sóc y tế ngay lập tức.",
+    "risk_level": "medium",
+    "next_steps": "Bạn cần đi khám chuyên khoa tim mạch sớm để được đánh giá và xác định nguyên nhân chính xác của hiện tượng chênh xuống đoạn ST, từ đó có hướng điều trị phù hợp."
+  }
+}

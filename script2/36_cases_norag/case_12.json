@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 56.83,
+      "hrv_rmssd": 134.183,
+      "qrs_duration": 0.106,
+      "r_amplitude": 7.56,
+      "r_peaks_count": 9,
+      "signal_energy": 1194.9593
+    },
+    "probability": 1.0,
+    "diagnosis": "Block nhĩ thất độ I (First-degree Atrioventricular Block)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy bạn có tình trạng Block nhĩ thất độ I, nghĩa là tín hiệu điện từ buồng trên xuống buồng dưới của tim bị chậm một chút. Nhịp tim của bạn hiện tại hơi chậm.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim đập đều đặn, với tần số là 56.83 lần/phút, hơi thấp hơn mức bình thường (60-100 lần/phút). Quan sát trên biểu đồ, mỗi sóng P (đại diện cho hoạt động của buồng tim phía trên) đều được theo sau bởi phức bộ QRS (đại diện cho hoạt động của buồng tim phía dưới), nhưng khoảng thời gian giữa chúng (khoảng PR) kéo dài hơn mức cho phép. Điều này cho thấy có sự chậm trễ trong việc truyền tín hiệu điện từ buồng tim phía trên xuống buồng tim phía dưới. Tuy nhiên, tất cả các tín hiệu đều được truyền đi và thời gian dẫn truyền trong buồng tim phía dưới (QRS là 0.106 giây) vẫn trong giới hạn an toàn.",
+    "recommendations": "Tình trạng Block nhĩ thất độ I thường không gây nguy hiểm và không cần điều trị đặc hiệu nếu bạn không có bất kỳ triệu chứng nào. Bạn nên tiếp tục theo dõi sức khỏe và duy trì lối sống lành mạnh.",
+    "risk_level": "low",
+    "next_steps": "Nếu bạn bắt đầu cảm thấy mệt mỏi, chóng mặt, ngất xỉu hoặc có bất kỳ triệu chứng bất thường nào khác, hãy đi khám bác sĩ tim mạch để được đánh giá kỹ hơn. Khám định kỳ để theo dõi tình trạng này là cần thiết."
+  }
+}

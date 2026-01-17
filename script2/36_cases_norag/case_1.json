@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 102.45,
+      "hrv_rmssd": 218.047,
+      "qrs_duration": 0.059,
+      "r_amplitude": 5.054,
+      "r_peaks_count": 16,
+      "signal_energy": 1430.144
+    },
+    "probability": 1.0,
+    "diagnosis": "Rung nhĩ (Atrial Fibrillation)"
+  },
+  "explanation": {
+    "summary": "Kết quả cho thấy bạn có tình trạng Rung nhĩ, tức là nhịp tim đập nhanh và hoàn toàn không đều. Đây là một vấn đề cần được bác sĩ chuyên khoa tim mạch đánh giá và điều trị.",
+    "details": "Trên hình ảnh sóng điện tim, chúng tôi quan sát thấy không có sóng P rõ ràng (sóng biểu hiện sự co bóp của buồng tim phía trên - tâm nhĩ), thay vào đó là đường nền lộn xộn, không đều. Khoảng cách giữa các nhịp đập chính của tim (gọi là phức bộ QRS) cũng thay đổi liên tục, không có quy luật nào, xác nhận nhịp tim hoàn toàn không đều. Nhịp tim trung bình của bạn là 102.45 lần/phút, hơi nhanh so với mức bình thường (60-100 lần/phút). Thời gian dẫn truyền điện tim qua các buồng dưới của tim (QRS 0.059s) rất ngắn và trong giới hạn bình thường, cho thấy đường dẫn truyền điện của tâm thất vẫn ổn định. Chỉ số biến thiên nhịp tim (HRV RMSSD 218.047 ms) rất cao, phản ánh sự không đều đáng kể của từng nhịp tim, một đặc điểm điển hình của Rung nhĩ.",
+    "recommendations": "Bạn cần sắp xếp lịch khám bác sĩ chuyên khoa tim mạch càng sớm càng tốt để được chẩn đoán chính xác và có kế hoạch điều trị phù hợp. Tránh các hoạt động thể chất nặng hoặc căng thẳng tinh thần quá mức trong thời gian này.",
+    "risk_level": "medium",
+    "next_steps": "Hãy đặt lịch hẹn với bác sĩ tim mạch trong vài ngày tới. Nếu bạn cảm thấy đau ngực, khó thở nghiêm trọng, chóng mặt nhiều, hoặc ngất xỉu, hãy đến bệnh viện cấp cứu ngay lập tức."
+  }
+}

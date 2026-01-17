@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 60.52,
+      "hrv_rmssd": 249.497,
+      "qrs_duration": 0.099,
+      "r_amplitude": 2.654,
+      "r_peaks_count": 9,
+      "signal_energy": 1143.5849
+    },
+    "probability": 0.9972,
+    "diagnosis": "Chênh xuống đoạn ST (ST Depression)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy có dấu hiệu chênh xuống đoạn ST, một tình trạng cần được chú ý, trong khi nhịp tim của bạn vẫn ổn định.",
+    "details": "Hình ảnh sóng điện tim cho thấy rõ ràng đoạn ST (phần sau sóng QRS và trước sóng T) bị chênh xuống so với đường đẳng điện. Điều này, theo hướng dẫn y khoa, có thể là dấu hiệu cho thấy cơ tim có thể đang thiếu máu hoặc oxy (thiếu máu cục bộ cơ tim). Tuy nhiên, nhịp tim của bạn là 60.52 lần/phút, nằm trong giới hạn bình thường (60-100 lần/phút). Thời gian dẫn truyền điện tim QRS là 0.099 giây, cũng ở mức bình thường, cho thấy đường dẫn truyền điện của tim hoạt động tốt. Sự biến thiên nhịp tim (HRV) là 249.497 ms, cho thấy khả năng điều hòa nhịp tim của cơ thể bạn khá tốt.",
+    "recommendations": "Bạn nên hạn chế các hoạt động gắng sức và tránh căng thẳng. Tránh hút thuốc lá và các chất kích thích. Việc này giúp giảm gánh nặng cho tim.",
+    "risk_level": "medium",
+    "next_steps": "Bạn cần đi khám bác sĩ chuyên khoa tim mạch càng sớm càng tốt để được kiểm tra kỹ hơn. Bác sĩ có thể yêu cầu thêm các xét nghiệm để xác định nguyên nhân và đưa ra phương pháp điều trị phù hợp."
+  }
+}

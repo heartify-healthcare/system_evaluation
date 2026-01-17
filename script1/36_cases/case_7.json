@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 54.38,
+      "hrv_rmssd": 33.823,
+      "qrs_duration": 0.11,
+      "r_amplitude": 6.344,
+      "r_peaks_count": 8,
+      "signal_energy": 1429.4414
+    },
+    "probability": 0.9825,
+    "diagnosis": "Nhịp chậm (Bradycardia)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy nhịp tim của bạn chậm hơn mức bình thường, nhưng các tín hiệu điện tim khác vẫn ổn định.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim của bạn đập đều đặn, nhưng các khoảng cách giữa các nhịp (R-R) khá xa, phản ánh nhịp tim chậm. Cụ thể, nhịp tim đo được là 54.38 lần/phút, thấp hơn ngưỡng bình thường (60-100 lần/phút). Điều này cho thấy tim đang co bóp với tần suất chậm hơn bình thường. Tuy nhiên, thời gian dẫn truyền tín hiệu điện qua các buồng tim chính (phức bộ QRS) là 0.11 giây, vẫn nằm trong giới hạn bình thường (0.08-0.12 giây), cho thấy đường dẫn truyền điện của tim hoạt động tốt và không có dấu hiệu tắc nghẽn đáng kể.",
+    "recommendations": "Nếu bạn không có triệu chứng như chóng mặt, mệt mỏi, khó thở hoặc ngất xỉu, nhịp tim chậm có thể không đáng lo ngại. Nhiều người khỏe mạnh, đặc biệt là vận động viên, có thể có nhịp tim chậm tự nhiên. Bạn nên theo dõi cơ thể và ghi lại bất kỳ triệu chứng bất thường nào.",
+    "risk_level": "low",
+    "next_steps": "Nếu bạn cảm thấy mệt mỏi, chóng mặt, khó thở, hoặc bất kỳ triệu chứng nào khác liên quan đến nhịp tim chậm, hãy đi khám bác sĩ chuyên khoa tim mạch để được đánh giá kỹ hơn. Bạn cũng nên thông báo về kết quả này trong lần khám sức khỏe định kỳ tiếp theo."
+  }
+}

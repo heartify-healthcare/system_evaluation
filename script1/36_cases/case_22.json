@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 91.19,
+      "hrv_rmssd": 80.126,
+      "qrs_duration": 0.066,
+      "r_amplitude": 8.156,
+      "r_peaks_count": 14,
+      "signal_energy": 1414.8548
+    },
+    "probability": 1.0,
+    "diagnosis": "Ngoại tâm thu thất (Premature Ventricular Contraction)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy có các nhịp đập sớm bất thường từ buồng tim dưới, được gọi là Ngoại tâm thu thất.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim của bạn chủ yếu đều với tần số 91.19 lần/phút, nằm trong giới hạn bình thường (60-100 lần/phút). Thời gian dẫn truyền điện tim (QRS duration) của các nhịp đập bình thường là 0.066 giây, cho thấy đường dẫn truyền tín hiệu điện trong tim hoạt động hiệu quả. Tuy nhiên, có những sóng điện tim xuất hiện sớm hơn dự kiến, có hình dạng rộng và khác thường, đặc biệt rõ nét ở khoảng 2.2 giây và 5.5 giây trên biểu đồ. Đây là dấu hiệu của ngoại tâm thu thất, nghĩa là một xung điện bất thường phát ra từ các buồng tim phía dưới (tâm thất), khiến tim co bóp sớm hơn bình thường. Theo hướng dẫn y khoa, các phức bộ QRS của ngoại tâm thu thất thường kéo dài hơn 120 ms (0.12 giây) do tín hiệu điện lan truyền qua cơ tim không theo hệ thống dẫn truyền chuyên biệt.",
+    "recommendations": "Trong nhiều trường hợp, ngoại tâm thu thất đơn lẻ và không có triệu chứng thường không đáng ngại. Bạn nên theo dõi các triệu chứng như cảm giác hụt hơi, tim đập nhanh hoặc bỏ nhịp. Hạn chế các chất kích thích như cà phê, trà, rượu bia và cố gắng giữ tinh thần thoải mái, tránh căng thẳng.",
+    "risk_level": "low",
+    "next_steps": "Nếu bạn cảm thấy khó chịu, đau ngực, khó thở hoặc tình trạng ngoại tâm thu xuất hiện thường xuyên hơn, hãy tái khám với bác sĩ chuyên khoa tim mạch để được đánh giá kỹ lưỡng và tư vấn phương pháp quản lý phù hợp."
+  }
+}

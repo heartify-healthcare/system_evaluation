@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 62.34,
+      "hrv_rmssd": 33.53,
+      "qrs_duration": 0.096,
+      "r_amplitude": 7.575,
+      "r_peaks_count": 9,
+      "signal_energy": 1398.7912
+    },
+    "probability": 1.0,
+    "diagnosis": "Nhịp xoang bình thường (Normal Sinus Rhythm)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ của bạn cho thấy nhịp tim hoàn toàn bình thường, ổn định và khỏe mạnh.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp đều đặn, mỗi nhịp tim bắt đầu từ nút xoang tự nhiên của tim (nhịp xoang). Có đủ các sóng P, QRS, T theo đúng thứ tự và hình dạng bình thường. Nhịp tim của bạn là 62.34 lần/phút, nằm trong giới hạn khỏe mạnh (60-100 lần/phút). Thời gian dẫn truyền điện tim (QRS duration 0.096s) cũng hoàn toàn bình thường, cho thấy tín hiệu điện truyền đi trong tim rất hiệu quả, các buồng tim co bóp nhịp nhàng, đúng cách. Chỉ số biến thiên nhịp tim (HRV 33.53 ms) cũng cho thấy khả năng điều hòa nhịp tim của cơ thể bạn đang tốt.",
+    "recommendations": "Bạn không cần có bất kỳ thay đổi nào trong lối sống hiện tại. Hãy tiếp tục duy trì các thói quen tốt cho sức khỏe tim mạch.",
+    "risk_level": "low",
+    "next_steps": "Không cần hành động khẩn cấp. Bạn có thể tiếp tục theo dõi sức khỏe tổng quát định kỳ theo lịch trình thông thường của mình."
+  }
+}

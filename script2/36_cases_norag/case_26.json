@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 79.01,
+      "hrv_rmssd": 43.173,
+      "qrs_duration": 0.076,
+      "r_amplitude": 6.494,
+      "r_peaks_count": 12,
+      "signal_energy": 1345.4135
+    },
+    "probability": 1.0,
+    "diagnosis": "Block nhánh phải (Right Bundle Branch Block)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ có chẩn đoán là Block nhánh phải, nhưng các chỉ số đo lường cho thấy thời gian dẫn truyền điện tim của bạn vẫn trong giới hạn bình thường.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim của bạn đều đặn, ở mức 79.01 lần/phút, nằm trong ngưỡng bình thường (60-100 lần/phút). Các sóng QRS trên biểu đồ điện tim cũng cho thấy thời gian dẫn truyền tín hiệu điện qua các buồng tim (thời gian QRS) là 0.076 giây, nằm trong giới hạn bình thường. Điều này không phù hợp với chẩn đoán Block nhánh phải, vì Block nhánh phải thường khiến sóng QRS rộng ra, kéo dài trên 0.12 giây, cho thấy sự chậm trễ trong dẫn truyền điện ở một phần của tim.",
+    "recommendations": "Dựa trên các chỉ số đo lường và quan sát hình ảnh điện tim, tình trạng Block nhánh phải có vẻ không được xác nhận. Bạn nên mang kết quả này đi khám bác sĩ chuyên khoa tim mạch để được đánh giá lại chính xác và làm rõ chẩn đoán.",
+    "risk_level": "low",
+    "next_steps": "Đặt lịch hẹn với bác sĩ tim mạch để xem xét lại điện tâm đồ và đảm bảo không có vấn đề tiềm ẩn nào khác. Không cần quá lo lắng nhưng cần sự xác nhận từ chuyên gia y tế."
+  }
+}

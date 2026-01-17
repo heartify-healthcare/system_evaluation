@@ -1,0 +1,17 @@
+\subsubsection{Kịch bản 2: Đánh giá hiệu quả của kỹ thuật RAG (A/B Testing)}
+\noindent\textbf{Mục tiêu:} Chứng minh bằng số liệu rằng việc tích hợp cơ sở tri thức (RAG) giúp câu trả lời cụ thể và giàu thông tin hơn so với việc chỉ dùng LLM gốc.
+\begin{itemize}
+    \item \textbf{Dữ liệu thử nghiệm:} 36 mẫu gồm 3 mẫu cho mỗi bệnh lý (12 bệnh lý).
+    \item \textbf{Quy trình thực nghiệm:} Chạy cùng một đầu vào qua 2 pipeline:
+    \begin{itemize}
+        \item \textit{Pipeline A (No-RAG):} Chỉ sử dụng LLM gốc để sinh câu trả lời dựa trên dữ liệu huấn luyện sẵn.
+        \item \textit{Pipeline B (With-RAG):} Truy xuất kiến thức từ Vector Database trước khi sinh câu trả lời.
+    \end{itemize}
+    \item \textbf{Các chỉ số đo lường (Định lượng):}
+    \begin{itemize}
+        \item \textbf{Jargon Density (Mật độ thuật ngữ - \%):} Tỷ lệ các từ ngữ chuyên ngành y khoa xuất hiện trong văn bản mà không được giải thích.
+            $$ JD = \frac{\text{Số từ chuyên ngành chưa giải thích}}{\text{Tổng số từ trong câu}} \times 100\% $$
+            \textit{(Chỉ số này càng \textbf{thấp} thì văn bản càng thân thiện với người dùng).}
+        \item \textbf{Hallucination Rate (\%):} Tỷ lệ thông tin bịa đặt. Kiểm tra xem các trích dẫn tài liệu y khoa trong câu trả lời có thực sự tồn tại trong cơ sở dữ liệu hay không \cite{ref4}.
+    \end{itemize}
+\end{itemize}

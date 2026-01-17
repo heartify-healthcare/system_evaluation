@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 102.45,
+      "hrv_rmssd": 218.047,
+      "qrs_duration": 0.059,
+      "r_amplitude": 5.054,
+      "r_peaks_count": 16,
+      "signal_energy": 1430.144
+    },
+    "probability": 1.0,
+    "diagnosis": "Rung nhĩ (Atrial Fibrillation)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tim cho thấy bạn đang có tình trạng Rung nhĩ, tức là nhịp tim đập nhanh và không đều.",
+    "details": "Hình ảnh điện tim cho thấy nhịp tim của bạn đập không đều. Cụ thể, các sóng nhỏ (sóng P) thường báo hiệu nhịp đập từ buồng trên của tim không xuất hiện rõ ràng, thay vào đó là những rung động nhỏ. Điều này được gọi là Rung nhĩ. Nhịp tim trung bình là 102.45 lần/phút, hơi nhanh hơn mức bình thường (60-100 lần/phút). Chỉ số biến thiên nhịp tim (HRV RMSSD) rất cao ở mức 218.047 ms, xác nhận sự không đều rõ rệt giữa các nhịp đập. Tuy nhiên, thời gian dẫn truyền điện qua các buồng dưới của tim (QRS Duration) là 0.059 giây (59 ms), nằm trong giới hạn bình thường (theo litfl.com, bình thường là 70-100 ms), cho thấy đường dẫn truyền điện chính của tim hoạt động tốt.",
+    "recommendations": "Bạn cần gặp bác sĩ chuyên khoa tim mạch càng sớm càng tốt để được đánh giá và lên kế hoạch điều trị phù hợp. Tránh các hoạt động gắng sức hoặc căng thẳng quá mức.",
+    "risk_level": "medium",
+    "next_steps": "Đặt lịch hẹn với bác sĩ tim mạch trong thời gian sớm nhất. Nếu xuất hiện các triệu chứng như đau ngực, khó thở nhiều, chóng mặt hoặc ngất xỉu, hãy đến bệnh viện ngay lập tức."
+  }
+}

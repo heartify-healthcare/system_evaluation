@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 107.54,
+      "hrv_rmssd": 198.813,
+      "qrs_duration": 0.056,
+      "r_amplitude": 5.579,
+      "r_peaks_count": 16,
+      "signal_energy": 1384.5966
+    },
+    "probability": 1.0,
+    "diagnosis": "Cuồng nhĩ (Atrial Flutter)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ (ECG) cho thấy bạn có tình trạng Cuồng nhĩ với nhịp tim nhanh, cần được bác sĩ thăm khám.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp đập của tim có vẻ khá đều đặn nhưng nhanh. Quan sát kỹ, có thể thấy rõ các sóng nhỏ, đều đặn, lặp đi lặp lại giống như hình răng cưa ở đường nền giữa các nhịp đập chính (sóng QRS). Đây là dấu hiệu đặc trưng của Cuồng nhĩ, một tình trạng mà các buồng tim phía trên (tâm nhĩ) phát ra tín hiệu điện rất nhanh và có tổ chức. Nhịp tim hiện tại của bạn là 107.54 lần/phút, tức là nhanh hơn mức bình thường (60-100 lần/phút). Tuy nhiên, thời gian dẫn truyền điện tim qua các buồng bơm chính của tim (QRS Duration) là 0.056 giây, nằm trong giới hạn bình thường. Điều này cho thấy tín hiệu điện vẫn truyền qua các buồng dưới của tim một cách hiệu quả và không có dấu hiệu tắc nghẽn.",
+    "recommendations": "Bạn nên sắp xếp lịch hẹn với bác sĩ chuyên khoa tim mạch càng sớm càng tốt để được đánh giá và điều trị phù hợp. Tránh các hoạt động gắng sức hoặc tập thể dục cường độ cao cho đến khi có lời khuyên từ bác sĩ.",
+    "risk_level": "medium",
+    "next_steps": "Hãy liên hệ với bác sĩ tim mạch để được tư vấn cụ thể về tình trạng Cuồng nhĩ. Nếu bạn cảm thấy đau ngực, khó thở nhiều, chóng mặt hoặc ngất xỉu, hãy đến bệnh viện ngay lập tức."
+  }
+}

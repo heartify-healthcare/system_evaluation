@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 69.83,
+      "hrv_rmssd": 206.661,
+      "qrs_duration": 0.086,
+      "r_amplitude": 6.579,
+      "r_peaks_count": 11,
+      "signal_energy": 1390.1121
+    },
+    "probability": 1.0,
+    "diagnosis": "Ngoại tâm thu nhĩ (Premature Atrial Contraction)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy tim bạn có xuất hiện các nhịp đập sớm hơn bình thường từ buồng nhĩ (Ngoại tâm thu nhĩ), nhưng nhịp tim tổng thể vẫn ổn định.",
+    "details": "Hình ảnh sóng điện tim cho thấy có những nhịp tim xuất hiện sớm hơn dự kiến, xen kẽ với các nhịp đập đều đặn. Đây là tình trạng Ngoại tâm thu nhĩ, nghĩa là buồng trên của tim (tâm nhĩ) phát ra một tín hiệu điện sớm hơn so với nhịp bình thường, tạo ra một nhịp đập phụ. Theo tài liệu y khoa về Premature Atrial Contractions, những nhịp này thường lành tính. Nhịp tim trung bình của bạn là 69.83 lần/phút, nằm trong giới hạn bình thường (60-100 lần/phút). Thời gian dẫn truyền điện tim qua buồng thất (QRS) là 0.086 giây, cũng trong mức bình thường, cho thấy các buồng tim dưới hoạt động đúng cách. Chỉ số biến thiên nhịp tim (HRV) là 206.661 ms, cho thấy khả năng điều hòa nhịp tim của cơ thể bạn khá tốt.",
+    "recommendations": "Ngoại tâm thu nhĩ thường không nguy hiểm và có thể do căng thẳng, thiếu ngủ, hoặc sử dụng chất kích thích như cà phê, trà. Bạn nên theo dõi các triệu chứng nếu có (như cảm giác hụt hẫng ở ngực, hồi hộp), tránh các yếu tố kích thích và duy trì lối sống lành mạnh.",
+    "risk_level": "low",
+    "next_steps": "Nếu bạn cảm thấy các nhịp đập sớm này xảy ra thường xuyên, gây khó chịu hoặc kèm theo các triệu chứng như chóng mặt, khó thở, đau ngực, bạn nên đi khám bác sĩ chuyên khoa tim mạch để được tư vấn và kiểm tra sâu hơn. Tuy nhiên, trong đa số trường hợp, không cần điều trị đặc biệt."
+  }
+}

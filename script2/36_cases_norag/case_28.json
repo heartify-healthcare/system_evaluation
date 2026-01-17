@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 60.12,
+      "hrv_rmssd": 471.594,
+      "qrs_duration": 0.1,
+      "r_amplitude": 5.197,
+      "r_peaks_count": 9,
+      "signal_energy": 1382.641
+    },
+    "probability": 0.9999,
+    "diagnosis": "Chênh xuống đoạn ST (ST Depression)"
+  },
+  "explanation": {
+    "summary": "Phát hiện tình trạng chênh xuống đoạn ST trên sóng điện tim, điều này cần được kiểm tra kỹ lưỡng hơn, mặc dù nhịp tim của bạn đang ở mức bình thường.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim của bạn đều đặn với tần số 60.12 lần/phút, nằm trong giới hạn bình thường. Thời gian dẫn truyền điện tim (QRS 0.1s) cũng ổn định, cho thấy các buồng tim co bóp nhịp nhàng. Tuy nhiên, kết quả phân tích và quan sát hình ảnh sóng điện tim cho thấy đoạn ST (phần sóng thể hiện sự hồi phục của cơ tim sau mỗi nhịp đập) đang bị chênh xuống dưới đường cơ sở. Đây là một dấu hiệu quan trọng, có thể chỉ ra rằng cơ tim của bạn đang không nhận đủ lượng máu và oxy cần thiết.",
+    "recommendations": "Bạn cần sắp xếp một cuộc hẹn với bác sĩ chuyên khoa tim mạch càng sớm càng tốt để được thăm khám và làm thêm các xét nghiệm chuyên sâu, nhằm xác định nguyên nhân và có hướng điều trị phù hợp.",
+    "risk_level": "medium",
+    "next_steps": "Đặt lịch khám tim mạch trong thời gian sớm nhất. Trong lúc chờ đợi, bạn nên tránh các hoạt động gắng sức và theo dõi các triệu chứng như đau ngực, khó thở hoặc mệt mỏi bất thường. Nếu có bất kỳ triệu chứng cấp tính nào, hãy đến bệnh viện ngay lập tức."
+  }
+}

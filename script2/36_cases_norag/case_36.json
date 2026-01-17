@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 106.21,
+      "hrv_rmssd": 10.696,
+      "qrs_duration": 0.056,
+      "r_amplitude": 4.258,
+      "r_peaks_count": 17,
+      "signal_energy": 1137.7112
+    },
+    "probability": 1.0,
+    "diagnosis": "Nhịp nhanh (Tachycardia)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy nhịp tim của bạn đang nhanh hơn bình thường (Nhịp nhanh), nhưng các tín hiệu điện tim vẫn được dẫn truyền ổn định.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim đều nhưng đập nhanh. Cụ thể, nhịp tim đo được là 106.21 lần/phút, cao hơn mức bình thường (60-100 lần/phút). Tuy nhiên, thời gian dẫn truyền điện tim qua các buồng dưới của tim (QRS 0.056 giây) vẫn trong giới hạn bình thường, cho thấy đường dẫn truyền điện của tim hoạt động tốt. Chỉ số biến thiên nhịp tim (HRV 10.696 ms) thấp có thể phản ánh cơ thể đang trong trạng thái căng thẳng, mệt mỏi hoặc thiếu thư giãn.",
+    "recommendations": "Bạn nên nghỉ ngơi, hít thở sâu để thư giãn. Hạn chế các chất kích thích như cà phê, trà đặc và tránh các hoạt động thể chất gắng sức trong thời gian này.",
+    "risk_level": "low",
+    "next_steps": "Theo dõi nhịp tim khi nghỉ ngơi. Nếu nhịp tim vẫn duy trì trên 100 lần/phút sau khi đã thư giãn hoàn toàn, hoặc nếu bạn cảm thấy khó thở, đau ngực, chóng mặt, hãy đến gặp bác sĩ tim mạch để được kiểm tra kỹ hơn."
+  }
+}

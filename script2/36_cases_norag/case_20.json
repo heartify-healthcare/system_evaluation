@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 77.3,
+      "hrv_rmssd": 193.916,
+      "qrs_duration": 0.078,
+      "r_amplitude": 4.065,
+      "r_peaks_count": 12,
+      "signal_energy": 1428.1302
+    },
+    "probability": 1.0,
+    "diagnosis": "Ngoại tâm thu nhĩ (Premature Atrial Contraction)"
+  },
+  "explanation": {
+    "summary": "Tình trạng của bạn có xuất hiện các nhịp tim đập sớm hơn bình thường từ buồng trên của tim (Ngoại tâm thu nhĩ), nhưng nhịp tim tổng thể vẫn trong giới hạn an toàn.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim chủ yếu đều đặn, nhưng có xuất hiện một số nhịp đập sớm hơn dự kiến tại các thời điểm như khoảng 2.5 giây, 4 giây, 5.5 giây, 7 giây, 8.5 giây, sau đó là một khoảng dừng ngắn trước khi nhịp tim trở lại bình thường. Điều này có nghĩa là buồng tim phía trên (tâm nhĩ) phát ra một tín hiệu điện sớm hơn quy luật, gây ra một nhịp đập phụ. Nhịp tim trung bình của bạn là 77.3 lần/phút, nằm trong ngưỡng bình thường (60-100 lần/phút). Thời gian dẫn truyền điện tim qua các buồng dưới (QRS 0.078s) cũng bình thường, cho thấy các đường dẫn truyền điện trong tim hoạt động tốt.",
+    "recommendations": "Ngoại tâm thu nhĩ thường không nguy hiểm ở người khỏe mạnh. Bạn nên theo dõi các triệu chứng như cảm giác hụt hơi, tim đập thình thịch, hoặc chóng mặt. Hạn chế các chất kích thích như cà phê, trà, rượu bia và tránh căng thẳng.",
+    "risk_level": "low",
+    "next_steps": "Nếu bạn cảm thấy các nhịp đập sớm này xảy ra thường xuyên, gây khó chịu hoặc kèm theo các triệu chứng khác như đau ngực, khó thở, hãy đi khám bác sĩ chuyên khoa tim mạch để được tư vấn và kiểm tra sâu hơn."
+  }
+}

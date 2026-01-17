@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 71.49,
+      "hrv_rmssd": 19.528,
+      "qrs_duration": 0.084,
+      "r_amplitude": 6.72,
+      "r_peaks_count": 11,
+      "signal_energy": 1415.3018
+    },
+    "probability": 1.0,
+    "diagnosis": "Nhịp xoang bình thường (Normal Sinus Rhythm)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy nhịp tim của bạn hoàn toàn bình thường (Nhịp xoang bình thường).",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim đều đặn, mỗi nhịp đều bắt đầu từ nút xoang - bộ phận phát nhịp tự nhiên của tim, như một chiếc đồng hồ hoạt động ổn định. Cụ thể, nhịp tim của bạn là 71.49 lần/phút, nằm trong khoảng an toàn cho người lớn (60-100 lần/phút). Thời gian dẫn truyền điện tim qua các buồng dưới của tim (QRS duration 0.084s) cũng trong giới hạn bình thường, cho thấy tín hiệu điện truyền đi nhanh chóng và hiệu quả. Các sóng P, QRS, T đều có hình dạng và khoảng cách đều đặn trên biểu đồ, xác nhận rằng tim đang hoạt động rất tốt.",
+    "recommendations": "Bạn không cần lo lắng về kết quả này. Hãy duy trì lối sống lành mạnh, ăn uống cân bằng và tập thể dục đều đặn để giữ gìn sức khỏe tim mạch.",
+    "risk_level": "low",
+    "next_steps": "Không có hành động y tế khẩn cấp nào được khuyến nghị. Bạn có thể tiếp tục theo dõi sức khỏe tổng quát định kỳ."
+  }
+}

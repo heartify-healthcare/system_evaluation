@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 94.86,
+      "hrv_rmssd": 298.971,
+      "qrs_duration": 0.063,
+      "r_amplitude": 4.753,
+      "r_peaks_count": 14,
+      "signal_energy": 802.8814
+    },
+    "probability": 1.0,
+    "diagnosis": "Cuồng nhĩ (Atrial Flutter)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy bạn có tình trạng Cuồng nhĩ, một dạng rối loạn nhịp tim trong đó tâm nhĩ đập rất nhanh và đều đặn. Nhịp tim tổng thể của bạn hiện đang ở mức ổn định.",
+    "details": "Hình ảnh sóng điện tim cho thấy có những sóng nhỏ, đều đặn, giống hình răng cưa rõ ràng giữa các nhịp đập chính của tim (sóng QRS). Đây là đặc điểm điển hình của Cuồng nhĩ, một tình trạng mà các buồng tim phía trên (tâm nhĩ) phát ra tín hiệu điện rất nhanh và có tổ chức, khiến chúng đập 'rung' lên với tần số cao. Dù tâm nhĩ đập nhanh, tim bạn vẫn kiểm soát được nhịp đập chính ở các buồng dưới (tâm thất), với nhịp tim trung bình là 94.86 lần/phút, nằm trong giới hạn bình thường. Thời gian dẫn truyền điện qua các buồng dưới của tim (QRS duration 0.063s) cũng rất bình thường, cho thấy đường dẫn truyền điện ở đây không có vấn đề. Mặc dù nhịp tim tổng thể đang ổn định, tình trạng Cuồng nhĩ vẫn cần được theo dõi và điều trị.",
+    "recommendations": "Bạn cần gặp bác sĩ tim mạch để được đánh giá kỹ lưỡng hơn về tình trạng Cuồng nhĩ này. Bác sĩ sẽ tư vấn về các phương pháp điều trị phù hợp để kiểm soát nhịp tim và giảm nguy cơ biến chứng.",
+    "risk_level": "medium",
+    "next_steps": "Đặt lịch hẹn khám chuyên khoa tim mạch trong thời gian sớm nhất. Bác sĩ có thể yêu cầu thêm các xét nghiệm để xác định nguyên nhân và đưa ra kế hoạch điều trị."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 84.55,
+      "hrv_rmssd": 13.721,
+      "qrs_duration": 0.071,
+      "r_amplitude": 6.376,
+      "r_peaks_count": 13,
+      "signal_energy": 1642.3644
+    },
+    "probability": 1.0,
+    "diagnosis": "Block nhánh phải (Right Bundle Branch Block)"
+  },
+  "explanation": {
+    "summary": "Hệ thống AI phát hiện dấu hiệu có thể liên quan đến tình trạng Block nhánh phải (tắc nghẽn nhánh phải). Tuy nhiên, các chỉ số điện tim của bạn, đặc biệt là thời gian dẫn truyền điện tim (QRS), đang ở mức bình thường.",
+    "details": "Block nhánh phải là tình trạng tín hiệu điện tim truyền đến buồng tim bên phải bị chậm trễ. Điều này thường được nhận biết trên điện tâm đồ qua việc sóng QRS (đại diện cho sự co bóp của các buồng tim dưới) bị kéo dài, thường là trên 0.12 giây. Trong trường hợp của bạn, nhịp tim là 84.55 nhịp/phút, nằm trong giới hạn bình thường (60-100 nhịp/phút). Điều quan trọng là thời gian sóng QRS đo được là 0.071 giây, đây là mức hoàn toàn bình thường và không cho thấy sự chậm trễ đáng kể như thường thấy ở Block nhánh phải hoàn toàn. Hình ảnh sóng điện tim cũng cho thấy các sóng QRS hẹp và đều, phù hợp với chỉ số 0.071 giây này, không có đặc điểm của QRS bị kéo dài. Chỉ số biến thiên nhịp tim (HRV) là 13.721 ms, có thể thấp, nhưng không trực tiếp giải thích chẩn đoán Block nhánh phải.",
+    "recommendations": "Mặc dù hệ thống AI đưa ra chẩn đoán này với độ tin cậy cao, nhưng vì các chỉ số quan trọng như thời gian QRS vẫn bình thường và hình ảnh điện tim không điển hình cho Block nhánh phải hoàn toàn, bạn nên mang kết quả này đi gặp bác sĩ tim mạch để được đánh giá và xác nhận chính xác hơn. Bác sĩ có thể yêu cầu thêm các xét nghiệm khác để làm rõ tình trạng.",
+    "risk_level": "medium",
+    "next_steps": "Sắp xếp một cuộc hẹn với bác sĩ tim mạch trong thời gian sớm nhất để kiểm tra lại và thảo luận về kết quả này. Mang theo kết quả điện tim này khi đi khám."
+  }
+}

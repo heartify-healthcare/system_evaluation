@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 69.09,
+      "hrv_rmssd": 11.855,
+      "qrs_duration": 0.087,
+      "r_amplitude": 6.315,
+      "r_peaks_count": 10,
+      "signal_energy": 1428.7407
+    },
+    "probability": 0.9799,
+    "diagnosis": "Block nhĩ thất độ I (First-degree Atrioventricular Block)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy có sự chậm trễ nhẹ trong việc dẫn truyền tín hiệu điện từ buồng trên xuống buồng dưới của tim (Block nhĩ thất độ I), nhưng nhịp tim vẫn đều đặn.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim của bạn đều đặn, với nhịp tim hiện tại là 69 lần/phút, nằm trong giới hạn bình thường. Chúng tôi quan sát thấy mỗi tín hiệu điện từ tâm nhĩ (sóng P, là sóng nhỏ trước nhịp đập lớn) đều được dẫn truyền xuống tâm thất (phức bộ QRS, là nhịp đập lớn). Tuy nhiên, khoảng thời gian từ khi sóng P bắt đầu đến khi phức bộ QRS bắt đầu (gọi là khoảng PR) có vẻ kéo dài hơn mức bình thường. Điều này có nghĩa là tín hiệu điện mất nhiều thời gian hơn một chút để đi qua 'cổng' kết nối giữa hai buồng tim, nhưng tất cả các tín hiệu đều đi qua thành công, không có nhịp nào bị bỏ lỡ. Thời gian co bóp của tâm thất (QRS 0.087s) vẫn trong giới hạn an toàn, cho thấy cấu trúc tim hoạt động bình thường.",
+    "recommendations": "Block nhĩ thất độ I thường không gây ra triệu chứng và không cần điều trị đặc biệt. Bạn nên tiếp tục duy trì lối sống lành mạnh và theo dõi sức khỏe tổng quát.",
+    "risk_level": "low",
+    "next_steps": "Không cần hành động khẩn cấp. Bạn có thể đề cập tình trạng này với bác sĩ trong lần khám sức khỏe định kỳ tiếp theo để được tư vấn thêm."
+  }
+}

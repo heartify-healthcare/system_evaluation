@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 53.74,
+      "hrv_rmssd": 15.385,
+      "qrs_duration": 0.112,
+      "r_amplitude": 3.552,
+      "r_peaks_count": 8,
+      "signal_energy": 1180.7687
+    },
+    "probability": 1.0,
+    "diagnosis": "Block nhánh trái (Left Bundle Branch Block)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy nhịp tim của bạn chậm hơn bình thường và có dấu hiệu của tình trạng Block nhánh trái.",
+    "details": "Hình ảnh sóng điện tim cho thấy các phức hợp QRS (phản ánh sự co bóp của tâm thất) có bề rộng bất thường là 0.112 giây, rộng hơn mức bình thường (< 0.10 giây). Điều này phù hợp với chẩn đoán Block nhánh trái. Theo hướng dẫn y khoa, Block nhánh trái xảy ra khi đường dẫn truyền tín hiệu điện đến buồng tim bên trái bị chậm hoặc tắc nghẽn, khiến tim co bóp không đồng bộ. Ngoài ra, nhịp tim của bạn là 53.74 lần/phút, thấp hơn ngưỡng bình thường (60-100 lần/phút), cho thấy tình trạng nhịp tim chậm.",
+    "recommendations": "Với tình trạng Block nhánh trái và nhịp tim chậm, bạn cần được bác sĩ chuyên khoa tim mạch thăm khám kỹ lưỡng để xác định nguyên nhân và mức độ nghiêm trọng. Tránh các hoạt động gắng sức nếu bạn cảm thấy mệt mỏi hoặc chóng mặt.",
+    "risk_level": "medium",
+    "next_steps": "Bạn nên đặt lịch hẹn với bác sĩ tim mạch càng sớm càng tốt để được kiểm tra thêm (ví dụ: siêu âm tim) và tư vấn điều trị phù hợp. Nếu có bất kỳ triệu chứng như đau ngực, khó thở nghiêm trọng, ngất xỉu hoặc chóng mặt liên tục, hãy đến bệnh viện ngay."
+  }
+}

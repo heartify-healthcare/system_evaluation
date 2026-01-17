@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 53.42,
+      "hrv_rmssd": 42.249,
+      "qrs_duration": 0.112,
+      "r_amplitude": 5.828,
+      "r_peaks_count": 8,
+      "signal_energy": 771.6525
+    },
+    "probability": 1.0,
+    "diagnosis": "Nhịp chậm (Bradycardia)"
+  },
+  "explanation": {
+    "summary": "Kết quả cho thấy nhịp tim của bạn chậm hơn mức bình thường (Nhịp chậm).",
+    "details": "Hình ảnh sóng điện tim cho thấy các nhịp đập của tim xuất hiện thưa hơn bình thường, với nhịp tim đo được là 53.42 lần/phút, thấp hơn ngưỡng bình thường (60-100 lần/phút). Điều này có nghĩa là tim đang đập chậm. Thời gian dẫn truyền điện tim qua các buồng dưới của tim (QRS 0.112s) vẫn nằm trong giới hạn an toàn, cho thấy đường dẫn truyền điện của tim hoạt động bình thường, không có dấu hiệu tắc nghẽn đáng kể.",
+    "recommendations": "Nếu bạn không có triệu chứng khó thở, chóng mặt, mệt mỏi hay đau ngực, nhịp tim chậm có thể không đáng ngại. Tuy nhiên, bạn nên tránh các hoạt động gắng sức quá mức và theo dõi cảm giác của cơ thể.",
+    "risk_level": "low",
+    "next_steps": "Theo dõi các triệu chứng. Nếu bạn cảm thấy mệt mỏi bất thường, chóng mặt, ngất xỉu hoặc khó thở, hãy đi khám bác sĩ chuyên khoa tim mạch để được đánh giá kỹ hơn. Nhịp tim chậm ở người khỏe mạnh, đặc biệt là vận động viên, có thể là bình thường."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 107.04,
+      "hrv_rmssd": 10.072,
+      "qrs_duration": 0.056,
+      "r_amplitude": 5.737,
+      "r_peaks_count": 16,
+      "signal_energy": 1334.6677
+    },
+    "probability": 1.0,
+    "diagnosis": "Nhịp nhanh (Tachycardia)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy nhịp tim của bạn đang đập nhanh hơn mức bình thường (Tachycardia), nhưng các tín hiệu điện tim vẫn được dẫn truyền hiệu quả.",
+    "details": "Nhịp tim hiện tại của bạn là 107.04 lần/phút, cao hơn ngưỡng bình thường (60-100 lần/phút). Hình ảnh sóng điện tim cho thấy các nhịp đập đều đặn, mỗi nhịp có một sóng P nhỏ đi trước sóng QRS, và các sóng QRS (phản ánh hoạt động co bóp của buồng tim dưới) rất hẹp, sắc nét. Thời gian dẫn truyền QRS là 0.056 giây. Theo hướng dẫn y khoa, thời gian QRS bình thường là từ 70-100 ms (0.07-0.10 giây). Chỉ số QRS hẹp này cho thấy tín hiệu điện tim xuất phát từ buồng trên của tim và được dẫn truyền xuống buồng dưới một cách nhanh chóng và hiệu quả, không có dấu hiệu tắc nghẽn hay bất thường trong đường dẫn truyền chính. Chỉ số biến thiên nhịp tim (HRV RMSSD) là 10.072 ms, thấp, có thể liên quan đến việc tim đang hoạt động nhanh.",
+    "recommendations": "Bạn nên nghỉ ngơi, hít thở sâu và tránh các chất kích thích như cà phê, trà, thuốc lá có thể làm tăng nhịp tim. Hạn chế căng thẳng và các hoạt động thể chất gắng sức trong thời gian này.",
+    "risk_level": "low",
+    "next_steps": "Theo dõi nhịp tim khi nghỉ ngơi. Nếu nhịp tim vẫn duy trì trên 100 lần/phút khi bạn đã thư giãn hoàn toàn, hoặc nếu bạn cảm thấy khó thở, đau ngực, chóng mặt, hãy đi khám chuyên khoa tim mạch để được đánh giá và tư vấn cụ thể."
+  }
+}

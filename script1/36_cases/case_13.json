@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 95.48,
+      "hrv_rmssd": 9.156,
+      "qrs_duration": 0.063,
+      "r_amplitude": 3.931,
+      "r_peaks_count": 14,
+      "signal_energy": 1417.5783
+    },
+    "probability": 1.0,
+    "diagnosis": "Block nhánh trái (Left Bundle Branch Block)"
+  },
+  "explanation": {
+    "summary": "Mặc dù hệ thống AI ban đầu gợi ý Block nhánh trái, nhưng các chỉ số điện tim và hình ảnh sóng cho thấy không có dấu hiệu đặc trưng của tình trạng này.",
+    "details": "Theo kết quả phân tích, nhịp tim của bạn là 95.48 lần/phút, nằm trong giới hạn bình thường (60-100 lần/phút). Điều quan trọng là thời gian sóng QRS (phản ánh hoạt động điện của các buồng tim chính) là 0.063 giây. Hình ảnh sóng điện tim cũng cho thấy các phức bộ QRS hẹp và rõ ràng. Theo hướng dẫn y khoa (LITFL), Block nhánh trái thường được nhận diện khi sóng QRS rộng, kéo dài hơn 0.12 giây (tức 120 mili giây). Do đó, dựa trên thời gian QRS 0.063 giây của bạn, không có bằng chứng cho thấy bạn bị Block nhánh trái.",
+    "recommendations": "Vì các chỉ số quan trọng như nhịp tim và thời gian QRS đều trong mức bình thường, hiện tại không có khuyến nghị y tế khẩn cấp nào liên quan đến Block nhánh trái. Tuy nhiên, bạn nên tiếp tục theo dõi sức khỏe tổng thể và tham khảo ý kiến bác sĩ nếu có bất kỳ triệu chứng bất thường nào.",
+    "risk_level": "low",
+    "next_steps": "Tiếp tục sinh hoạt bình thường. Nếu bạn có bất kỳ lo lắng nào về sức khỏe tim mạch hoặc muốn kiểm tra sâu hơn, hãy sắp xếp một cuộc hẹn với bác sĩ tim mạch để được tư vấn cụ thể."
+  }
+}

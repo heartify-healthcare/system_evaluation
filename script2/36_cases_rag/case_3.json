@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 107.24,
+      "hrv_rmssd": 136.106,
+      "qrs_duration": 0.056,
+      "r_amplitude": 5.305,
+      "r_peaks_count": 16,
+      "signal_energy": 1337.6064
+    },
+    "probability": 1.0,
+    "diagnosis": "Rung nhĩ (Atrial Fibrillation)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ cho thấy nhịp tim của bạn đang ở tình trạng Rung nhĩ, tức là nhịp tim đập nhanh và không đều. Đây là một vấn đề cần được bác sĩ chuyên khoa tim mạch kiểm tra.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp đập không đều rõ rệt, khoảng cách giữa các nhịp tim (phức bộ QRS) thay đổi liên tục. Không thể xác định rõ các sóng P đều đặn trước mỗi nhịp tim, thay vào đó là tín hiệu điện hỗn loạn ở đường nền. Nhịp tim trung bình của bạn là 107.24 lần/phút, cao hơn mức bình thường (60-100 lần/phút). Điều này xảy ra khi các tín hiệu điện ở buồng trên của tim (tâm nhĩ) bị rối loạn, không đồng bộ, khiến tim đập nhanh và không theo quy luật. Tuy nhiên, thời gian dẫn truyền điện qua các buồng dưới của tim (phức bộ QRS) là 0.056 giây (56 mili giây), nằm trong giới hạn bình thường (theo LITFL.com, QRS bình thường là 70-100 mili giây), cho thấy đường dẫn truyền điện chính của tim vẫn hoạt động tốt.",
+    "recommendations": "Bạn cần gặp bác sĩ tim mạch càng sớm càng tốt để được thăm khám kỹ lưỡng và đưa ra phương án điều trị phù hợp. Tránh căng thẳng, làm việc nặng hoặc tập thể dục cường độ cao cho đến khi có lời khuyên từ bác sĩ.",
+    "risk_level": "medium",
+    "next_steps": "Hãy đặt lịch hẹn với bác sĩ tim mạch trong thời gian sớm nhất. Nếu bạn cảm thấy khó thở, đau ngực, chóng mặt hoặc ngất xỉu, hãy đến bệnh viện ngay lập tức."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prompt": {
+    "features": {
+      "heart_rate": 85.46,
+      "hrv_rmssd": 435.965,
+      "qrs_duration": 0.07,
+      "r_amplitude": 1.465,
+      "r_peaks_count": 12,
+      "signal_energy": 1374.4492
+    },
+    "probability": 1.0,
+    "diagnosis": "Block nhánh trái (Left Bundle Branch Block)"
+  },
+  "explanation": {
+    "summary": "Kết quả điện tâm đồ (ECG) ban đầu cho thấy chẩn đoán 'Block nhánh trái'. Tuy nhiên, các chỉ số đo được và hình ảnh sóng điện tim không hoàn toàn phù hợp với chẩn đoán này, cần được xem xét thêm.",
+    "details": "Hình ảnh sóng điện tim cho thấy nhịp tim của bạn đều đặn. Nhịp tim hiện tại là 85.46 lần/phút, nằm trong giới hạn bình thường (60-100 lần/phút). Block nhánh trái là tình trạng đường dẫn truyền tín hiệu điện đến buồng tim bên trái bị chậm hoặc tắc nghẽn, khiến buồng tim này co bóp trễ hơn bình thường. Điều này thường làm cho sóng QRS trên ECG trở nên rộng hơn, thường là từ 0.12 giây trở lên. Tuy nhiên, kết quả đo được cho thấy thời gian sóng QRS của bạn là 0.07 giây, và quan sát trên hình ảnh điện tim cũng cho thấy các sóng QRS hẹp, không phải là dạng sóng rộng điển hình của 'Block nhánh trái'. Chỉ số biến thiên nhịp tim (HRV) là 435.965 ms, cho thấy khả năng điều hòa nhịp tim của cơ thể bạn khá tốt.",
+    "recommendations": "Với sự không nhất quán giữa chẩn đoán tự động và các chỉ số điện tim, bạn nên mang kết quả này đi khám bác sĩ chuyên khoa tim mạch để được đánh giá lại và làm rõ chẩn đoán.",
+    "risk_level": "medium",
+    "next_steps": "Đặt lịch hẹn với bác sĩ tim mạch sớm nhất có thể để bác sĩ trực tiếp xem xét hình ảnh điện tim và các chỉ số của bạn, cũng như thực hiện thêm các xét nghiệm nếu cần thiết."
+  }
+}
