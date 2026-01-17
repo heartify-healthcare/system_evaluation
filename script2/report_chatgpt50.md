@@ -98,4 +98,4 @@ Dựa trên kịch bản trong [script2/script_content.tex](script2/script_conte
 - **JD (No-RAG):** mean 0.27%, median 0.36%
 - **JD (RAG):** mean 0.39%, median 0.4%
 - **HR (No-RAG, theo case):** 36/36 = 100.0%
-- **HR (RAG, theo case):** 29/36 = 80.56% (có trích dẫn nguồn)
+- **HR (RAG, theo case):** 7/36 = 19.44%
