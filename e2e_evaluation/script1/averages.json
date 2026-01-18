@@ -1,0 +1,26 @@
+{
+    "cpu_usage_average_cores": {
+        "ai-classification": 0.059907,
+        "ai-denoising": 0.001937,
+        "ai-service": 0.030948,
+        "api-gateway": 0.003582,
+        "config-server": 0.00331,
+        "eureka-server": 0.010359,
+        "mongodb": 0.104725,
+        "postgresql": 0.00878,
+        "qdrant": 0.002397,
+        "user-service": 0.00157
+    },
+    "memory_usage_average_mb": {
+        "ai-classification": 873.76,
+        "ai-denoising": 202.71,
+        "ai-service": 344.35,
+        "api-gateway": 299.36,
+        "config-server": 279.68,
+        "eureka-server": 290.62,
+        "mongodb": 239.13,
+        "postgresql": 81.53,
+        "qdrant": 17.74,
+        "user-service": 400.69
+    }
+}

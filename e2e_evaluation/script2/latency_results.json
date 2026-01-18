@@ -1,0 +1,1064 @@
+[
+  {
+    "T_upload": 1167,
+    "T_denoise": 38,
+    "T_classify": 949,
+    "T_LLM": 12090,
+    "T_total": 14244,
+    "timestamp": 1766257991694,
+    "datetime": "2025-12-20 19:13:11"
+  },
+  {
+    "T_upload": 839,
+    "T_denoise": 36,
+    "T_classify": 931,
+    "T_LLM": 7706,
+    "T_total": 9512,
+    "timestamp": 1766258006503,
+    "datetime": "2025-12-20 19:13:26"
+  },
+  {
+    "T_upload": 838,
+    "T_denoise": 36,
+    "T_classify": 912,
+    "T_LLM": 17276,
+    "T_total": 19062,
+    "timestamp": 1766258016584,
+    "datetime": "2025-12-20 19:13:36"
+  },
+  {
+    "T_upload": 840,
+    "T_denoise": 39,
+    "T_classify": 899,
+    "T_LLM": 9027,
+    "T_total": 10805,
+    "timestamp": 1766258036212,
+    "datetime": "2025-12-20 19:13:56"
+  },
+  {
+    "T_upload": 835,
+    "T_denoise": 46,
+    "T_classify": 902,
+    "T_LLM": 10075,
+    "T_total": 11858,
+    "timestamp": 1766258047595,
+    "datetime": "2025-12-20 19:14:07"
+  },
+  {
+    "T_upload": 902,
+    "T_denoise": 40,
+    "T_classify": 912,
+    "T_LLM": 10977,
+    "T_total": 12831,
+    "timestamp": 1766258060021,
+    "datetime": "2025-12-20 19:14:20"
+  },
+  {
+    "T_upload": 854,
+    "T_denoise": 37,
+    "T_classify": 901,
+    "T_LLM": 10079,
+    "T_total": 11871,
+    "timestamp": 1766258073441,
+    "datetime": "2025-12-20 19:14:33"
+  },
+  {
+    "T_upload": 810,
+    "T_denoise": 46,
+    "T_classify": 945,
+    "T_LLM": 10393,
+    "T_total": 12194,
+    "timestamp": 1766258085866,
+    "datetime": "2025-12-20 19:14:45"
+  },
+  {
+    "T_upload": 822,
+    "T_denoise": 34,
+    "T_classify": 1317,
+    "T_LLM": 11799,
+    "T_total": 13972,
+    "timestamp": 1766258098604,
+    "datetime": "2025-12-20 19:14:58"
+  },
+  {
+    "T_upload": 836,
+    "T_denoise": 44,
+    "T_classify": 1200,
+    "T_LLM": 12370,
+    "T_total": 14450,
+    "timestamp": 1766258113129,
+    "datetime": "2025-12-20 19:15:13"
+  },
+  {
+    "T_upload": 866,
+    "T_denoise": 33,
+    "T_classify": 900,
+    "T_LLM": 12611,
+    "T_total": 14410,
+    "timestamp": 1766258128125,
+    "datetime": "2025-12-20 19:15:28"
+  },
+  {
+    "T_upload": 839,
+    "T_denoise": 52,
+    "T_classify": 945,
+    "T_LLM": 20712,
+    "T_total": 22548,
+    "timestamp": 1766258143084,
+    "datetime": "2025-12-20 19:15:43"
+  },
+  {
+    "T_upload": 849,
+    "T_denoise": 35,
+    "T_classify": 908,
+    "T_LLM": 9664,
+    "T_total": 11456,
+    "timestamp": 1766258166182,
+    "datetime": "2025-12-20 19:16:06"
+  },
+  {
+    "T_upload": 846,
+    "T_denoise": 35,
+    "T_classify": 907,
+    "T_LLM": 15860,
+    "T_total": 17648,
+    "timestamp": 1766258178196,
+    "datetime": "2025-12-20 19:16:18"
+  },
+  {
+    "T_upload": 831,
+    "T_denoise": 32,
+    "T_classify": 890,
+    "T_LLM": 12125,
+    "T_total": 13878,
+    "timestamp": 1766258196445,
+    "datetime": "2025-12-20 19:16:36"
+  },
+  {
+    "T_upload": 856,
+    "T_denoise": 37,
+    "T_classify": 902,
+    "T_LLM": 11413,
+    "T_total": 13208,
+    "timestamp": 1766258210869,
+    "datetime": "2025-12-20 19:16:50"
+  },
+  {
+    "T_upload": 825,
+    "T_denoise": 46,
+    "T_classify": 889,
+    "T_LLM": 9605,
+    "T_total": 11365,
+    "timestamp": 1766258224820,
+    "datetime": "2025-12-20 19:17:04"
+  },
+  {
+    "T_upload": 810,
+    "T_denoise": 35,
+    "T_classify": 898,
+    "T_LLM": 8688,
+    "T_total": 10431,
+    "timestamp": 1766258236727,
+    "datetime": "2025-12-20 19:17:16"
+  },
+  {
+    "T_upload": 812,
+    "T_denoise": 35,
+    "T_classify": 914,
+    "T_LLM": 13680,
+    "T_total": 15441,
+    "timestamp": 1766258247716,
+    "datetime": "2025-12-20 19:17:27"
+  },
+  {
+    "T_upload": 834,
+    "T_denoise": 49,
+    "T_classify": 905,
+    "T_LLM": 10799,
+    "T_total": 12587,
+    "timestamp": 1766258263692,
+    "datetime": "2025-12-20 19:17:43"
+  },
+  {
+    "T_upload": 876,
+    "T_denoise": 35,
+    "T_classify": 888,
+    "T_LLM": 17919,
+    "T_total": 19718,
+    "timestamp": 1766258490105,
+    "datetime": "2025-12-20 19:21:30"
+  },
+  {
+    "T_upload": 816,
+    "T_denoise": 47,
+    "T_classify": 891,
+    "T_LLM": 19087,
+    "T_total": 20841,
+    "timestamp": 1766258510376,
+    "datetime": "2025-12-20 19:21:50"
+  },
+  {
+    "T_upload": 820,
+    "T_denoise": 37,
+    "T_classify": 936,
+    "T_LLM": 16811,
+    "T_total": 18604,
+    "timestamp": 1766258531762,
+    "datetime": "2025-12-20 19:22:11"
+  },
+  {
+    "T_upload": 844,
+    "T_denoise": 40,
+    "T_classify": 901,
+    "T_LLM": 13112,
+    "T_total": 14897,
+    "timestamp": 1766258550909,
+    "datetime": "2025-12-20 19:22:30"
+  },
+  {
+    "T_upload": 843,
+    "T_denoise": 35,
+    "T_classify": 893,
+    "T_LLM": 16440,
+    "T_total": 18211,
+    "timestamp": 1766258566365,
+    "datetime": "2025-12-20 19:22:46"
+  },
+  {
+    "T_upload": 821,
+    "T_denoise": 34,
+    "T_classify": 965,
+    "T_LLM": 16645,
+    "T_total": 18465,
+    "timestamp": 1766258585208,
+    "datetime": "2025-12-20 19:23:05"
+  },
+  {
+    "T_upload": 1131,
+    "T_denoise": 35,
+    "T_classify": 911,
+    "T_LLM": 13791,
+    "T_total": 15868,
+    "timestamp": 1766258604223,
+    "datetime": "2025-12-20 19:23:24"
+  },
+  {
+    "T_upload": 872,
+    "T_denoise": 35,
+    "T_classify": 907,
+    "T_LLM": 18516,
+    "T_total": 20330,
+    "timestamp": 1766258620643,
+    "datetime": "2025-12-20 19:23:40"
+  },
+  {
+    "T_upload": 820,
+    "T_denoise": 171,
+    "T_classify": 1022,
+    "T_LLM": 13900,
+    "T_total": 15913,
+    "timestamp": 1766258641530,
+    "datetime": "2025-12-20 19:24:01"
+  },
+  {
+    "T_upload": 842,
+    "T_denoise": 34,
+    "T_classify": 882,
+    "T_LLM": 16930,
+    "T_total": 18688,
+    "timestamp": 1766258657989,
+    "datetime": "2025-12-20 19:24:17"
+  },
+  {
+    "T_upload": 846,
+    "T_denoise": 35,
+    "T_classify": 888,
+    "T_LLM": 16948,
+    "T_total": 18717,
+    "timestamp": 1766258677233,
+    "datetime": "2025-12-20 19:24:37"
+  },
+  {
+    "T_upload": 887,
+    "T_denoise": 35,
+    "T_classify": 896,
+    "T_LLM": 18946,
+    "T_total": 20764,
+    "timestamp": 1766258696494,
+    "datetime": "2025-12-20 19:24:56"
+  },
+  {
+    "T_upload": 838,
+    "T_denoise": 34,
+    "T_classify": 918,
+    "T_LLM": 22680,
+    "T_total": 24470,
+    "timestamp": 1766258717807,
+    "datetime": "2025-12-20 19:25:17"
+  },
+  {
+    "T_upload": 824,
+    "T_denoise": 60,
+    "T_classify": 1189,
+    "T_LLM": 14155,
+    "T_total": 16228,
+    "timestamp": 1766258742829,
+    "datetime": "2025-12-20 19:25:42"
+  },
+  {
+    "T_upload": 874,
+    "T_denoise": 34,
+    "T_classify": 960,
+    "T_LLM": 20933,
+    "T_total": 22801,
+    "timestamp": 1766258759616,
+    "datetime": "2025-12-20 19:25:59"
+  },
+  {
+    "T_upload": 819,
+    "T_denoise": 34,
+    "T_classify": 954,
+    "T_LLM": 19046,
+    "T_total": 20853,
+    "timestamp": 1766258782962,
+    "datetime": "2025-12-20 19:26:22"
+  },
+  {
+    "T_upload": 841,
+    "T_denoise": 33,
+    "T_classify": 910,
+    "T_LLM": 15983,
+    "T_total": 17767,
+    "timestamp": 1766258804607,
+    "datetime": "2025-12-20 19:26:44"
+  },
+  {
+    "T_upload": 853,
+    "T_denoise": 51,
+    "T_classify": 959,
+    "T_LLM": 13116,
+    "T_total": 14979,
+    "timestamp": 1766258822922,
+    "datetime": "2025-12-20 19:27:02"
+  },
+  {
+    "T_upload": 894,
+    "T_denoise": 154,
+    "T_classify": 2062,
+    "T_LLM": 11667,
+    "T_total": 14777,
+    "timestamp": 1766259000331,
+    "datetime": "2025-12-20 19:30:00"
+  },
+  {
+    "T_upload": 849,
+    "T_denoise": 95,
+    "T_classify": 924,
+    "T_LLM": 10608,
+    "T_total": 12476,
+    "timestamp": 1766259015648,
+    "datetime": "2025-12-20 19:30:15"
+  },
+  {
+    "T_upload": 821,
+    "T_denoise": 37,
+    "T_classify": 896,
+    "T_LLM": 8487,
+    "T_total": 10241,
+    "timestamp": 1766259028665,
+    "datetime": "2025-12-20 19:30:28"
+  },
+  {
+    "T_upload": 823,
+    "T_denoise": 37,
+    "T_classify": 895,
+    "T_LLM": 8755,
+    "T_total": 10510,
+    "timestamp": 1766259039460,
+    "datetime": "2025-12-20 19:30:39"
+  },
+  {
+    "T_upload": 827,
+    "T_denoise": 35,
+    "T_classify": 872,
+    "T_LLM": 10711,
+    "T_total": 12445,
+    "timestamp": 1766259050507,
+    "datetime": "2025-12-20 19:30:50"
+  },
+  {
+    "T_upload": 895,
+    "T_denoise": 41,
+    "T_classify": 924,
+    "T_LLM": 7957,
+    "T_total": 9817,
+    "timestamp": 1766259063480,
+    "datetime": "2025-12-20 19:31:03"
+  },
+  {
+    "T_upload": 827,
+    "T_denoise": 51,
+    "T_classify": 926,
+    "T_LLM": 12581,
+    "T_total": 14385,
+    "timestamp": 1766259073847,
+    "datetime": "2025-12-20 19:31:13"
+  },
+  {
+    "T_upload": 829,
+    "T_denoise": 34,
+    "T_classify": 1177,
+    "T_LLM": 11237,
+    "T_total": 13277,
+    "timestamp": 1766259088792,
+    "datetime": "2025-12-20 19:31:28"
+  },
+  {
+    "T_upload": 829,
+    "T_denoise": 34,
+    "T_classify": 936,
+    "T_LLM": 9862,
+    "T_total": 11661,
+    "timestamp": 1766259102637,
+    "datetime": "2025-12-20 19:31:42"
+  },
+  {
+    "T_upload": 833,
+    "T_denoise": 35,
+    "T_classify": 908,
+    "T_LLM": 9561,
+    "T_total": 11337,
+    "timestamp": 1766259114890,
+    "datetime": "2025-12-20 19:31:54"
+  },
+  {
+    "T_upload": 860,
+    "T_denoise": 34,
+    "T_classify": 954,
+    "T_LLM": 11051,
+    "T_total": 12899,
+    "timestamp": 1766259126764,
+    "datetime": "2025-12-20 19:32:06"
+  },
+  {
+    "T_upload": 822,
+    "T_denoise": 35,
+    "T_classify": 879,
+    "T_LLM": 9279,
+    "T_total": 11015,
+    "timestamp": 1766259140195,
+    "datetime": "2025-12-20 19:32:20"
+  },
+  {
+    "T_upload": 832,
+    "T_denoise": 36,
+    "T_classify": 880,
+    "T_LLM": 7837,
+    "T_total": 9585,
+    "timestamp": 1766259151754,
+    "datetime": "2025-12-20 19:32:31"
+  },
+  {
+    "T_upload": 848,
+    "T_denoise": 35,
+    "T_classify": 972,
+    "T_LLM": 8170,
+    "T_total": 10025,
+    "timestamp": 1766259161880,
+    "datetime": "2025-12-20 19:32:41"
+  },
+  {
+    "T_upload": 823,
+    "T_denoise": 36,
+    "T_classify": 969,
+    "T_LLM": 10108,
+    "T_total": 11936,
+    "timestamp": 1766259172447,
+    "datetime": "2025-12-20 19:32:52"
+  },
+  {
+    "T_upload": 853,
+    "T_denoise": 35,
+    "T_classify": 913,
+    "T_LLM": 8996,
+    "T_total": 10797,
+    "timestamp": 1766259185176,
+    "datetime": "2025-12-20 19:33:05"
+  },
+  {
+    "T_upload": 866,
+    "T_denoise": 35,
+    "T_classify": 899,
+    "T_LLM": 9625,
+    "T_total": 11425,
+    "timestamp": 1766259196512,
+    "datetime": "2025-12-20 19:33:16"
+  },
+  {
+    "T_upload": 1125,
+    "T_denoise": 34,
+    "T_classify": 901,
+    "T_LLM": 9457,
+    "T_total": 11517,
+    "timestamp": 1766259208480,
+    "datetime": "2025-12-20 19:33:28"
+  },
+  {
+    "T_upload": 829,
+    "T_denoise": 37,
+    "T_classify": 955,
+    "T_LLM": 10876,
+    "T_total": 12697,
+    "timestamp": 1766259220526,
+    "datetime": "2025-12-20 19:33:40"
+  },
+  {
+    "T_upload": 847,
+    "T_denoise": 33,
+    "T_classify": 900,
+    "T_LLM": 9532,
+    "T_total": 11312,
+    "timestamp": 1766259233764,
+    "datetime": "2025-12-20 19:33:53"
+  },
+  {
+    "T_upload": 859,
+    "T_denoise": 42,
+    "T_classify": 898,
+    "T_LLM": 13739,
+    "T_total": 15538,
+    "timestamp": 1766259604865,
+    "datetime": "2025-12-20 19:40:04"
+  },
+  {
+    "T_upload": 835,
+    "T_denoise": 41,
+    "T_classify": 902,
+    "T_LLM": 9696,
+    "T_total": 11474,
+    "timestamp": 1766259620952,
+    "datetime": "2025-12-20 19:40:20"
+  },
+  {
+    "T_upload": 854,
+    "T_denoise": 37,
+    "T_classify": 963,
+    "T_LLM": 10093,
+    "T_total": 11947,
+    "timestamp": 1766259632972,
+    "datetime": "2025-12-20 19:40:32"
+  },
+  {
+    "T_upload": 884,
+    "T_denoise": 37,
+    "T_classify": 918,
+    "T_LLM": 10248,
+    "T_total": 12087,
+    "timestamp": 1766259645609,
+    "datetime": "2025-12-20 19:40:45"
+  },
+  {
+    "T_upload": 831,
+    "T_denoise": 35,
+    "T_classify": 890,
+    "T_LLM": 10069,
+    "T_total": 11825,
+    "timestamp": 1766259658235,
+    "datetime": "2025-12-20 19:40:58"
+  },
+  {
+    "T_upload": 884,
+    "T_denoise": 37,
+    "T_classify": 904,
+    "T_LLM": 9050,
+    "T_total": 10875,
+    "timestamp": 1766259670588,
+    "datetime": "2025-12-20 19:41:10"
+  },
+  {
+    "T_upload": 832,
+    "T_denoise": 35,
+    "T_classify": 909,
+    "T_LLM": 8666,
+    "T_total": 10442,
+    "timestamp": 1766259682009,
+    "datetime": "2025-12-20 19:41:22"
+  },
+  {
+    "T_upload": 850,
+    "T_denoise": 34,
+    "T_classify": 931,
+    "T_LLM": 11269,
+    "T_total": 13084,
+    "timestamp": 1766259692979,
+    "datetime": "2025-12-20 19:41:32"
+  },
+  {
+    "T_upload": 903,
+    "T_denoise": 34,
+    "T_classify": 900,
+    "T_LLM": 11228,
+    "T_total": 13065,
+    "timestamp": 1766259706590,
+    "datetime": "2025-12-20 19:41:46"
+  },
+  {
+    "T_upload": 851,
+    "T_denoise": 38,
+    "T_classify": 1875,
+    "T_LLM": 13929,
+    "T_total": 16693,
+    "timestamp": 1766259720199,
+    "datetime": "2025-12-20 19:42:00"
+  },
+  {
+    "T_upload": 852,
+    "T_denoise": 37,
+    "T_classify": 898,
+    "T_LLM": 12700,
+    "T_total": 14487,
+    "timestamp": 1766259737436,
+    "datetime": "2025-12-20 19:42:17"
+  },
+  {
+    "T_upload": 830,
+    "T_denoise": 39,
+    "T_classify": 926,
+    "T_LLM": 7501,
+    "T_total": 9296,
+    "timestamp": 1766259752471,
+    "datetime": "2025-12-20 19:42:32"
+  },
+  {
+    "T_upload": 834,
+    "T_denoise": 40,
+    "T_classify": 946,
+    "T_LLM": 9067,
+    "T_total": 10887,
+    "timestamp": 1766259762316,
+    "datetime": "2025-12-20 19:42:42"
+  },
+  {
+    "T_upload": 881,
+    "T_denoise": 36,
+    "T_classify": 1181,
+    "T_LLM": 10166,
+    "T_total": 12264,
+    "timestamp": 1766259773733,
+    "datetime": "2025-12-20 19:42:53"
+  },
+  {
+    "T_upload": 861,
+    "T_denoise": 35,
+    "T_classify": 898,
+    "T_LLM": 12422,
+    "T_total": 14216,
+    "timestamp": 1766259786526,
+    "datetime": "2025-12-20 19:43:06"
+  },
+  {
+    "T_upload": 850,
+    "T_denoise": 34,
+    "T_classify": 921,
+    "T_LLM": 9723,
+    "T_total": 11528,
+    "timestamp": 1766259801269,
+    "datetime": "2025-12-20 19:43:21"
+  },
+  {
+    "T_upload": 1132,
+    "T_denoise": 39,
+    "T_classify": 938,
+    "T_LLM": 11674,
+    "T_total": 13783,
+    "timestamp": 1766259813329,
+    "datetime": "2025-12-20 19:43:33"
+  },
+  {
+    "T_upload": 857,
+    "T_denoise": 37,
+    "T_classify": 886,
+    "T_LLM": 9560,
+    "T_total": 11340,
+    "timestamp": 1766259827650,
+    "datetime": "2025-12-20 19:43:47"
+  },
+  {
+    "T_upload": 874,
+    "T_denoise": 46,
+    "T_classify": 1005,
+    "T_LLM": 7760,
+    "T_total": 9685,
+    "timestamp": 1766259839534,
+    "datetime": "2025-12-20 19:43:59"
+  },
+  {
+    "T_upload": 857,
+    "T_denoise": 35,
+    "T_classify": 891,
+    "T_LLM": 10599,
+    "T_total": 12382,
+    "timestamp": 1766259849757,
+    "datetime": "2025-12-20 19:44:09"
+  },
+  {
+    "T_upload": 905,
+    "T_denoise": 134,
+    "T_classify": 1136,
+    "T_LLM": 20128,
+    "T_total": 22303,
+    "timestamp": 1766260020259,
+    "datetime": "2025-12-20 19:47:00"
+  },
+  {
+    "T_upload": 862,
+    "T_denoise": 35,
+    "T_classify": 962,
+    "T_LLM": 13136,
+    "T_total": 14995,
+    "timestamp": 1766260043119,
+    "datetime": "2025-12-20 19:47:23"
+  },
+  {
+    "T_upload": 871,
+    "T_denoise": 50,
+    "T_classify": 917,
+    "T_LLM": 8515,
+    "T_total": 10353,
+    "timestamp": 1766260058670,
+    "datetime": "2025-12-20 19:47:38"
+  },
+  {
+    "T_upload": 833,
+    "T_denoise": 34,
+    "T_classify": 891,
+    "T_LLM": 11153,
+    "T_total": 12911,
+    "timestamp": 1766260069550,
+    "datetime": "2025-12-20 19:47:49"
+  },
+  {
+    "T_upload": 900,
+    "T_denoise": 76,
+    "T_classify": 946,
+    "T_LLM": 7275,
+    "T_total": 9197,
+    "timestamp": 1766260082996,
+    "datetime": "2025-12-20 19:48:02"
+  },
+  {
+    "T_upload": 855,
+    "T_denoise": 36,
+    "T_classify": 1220,
+    "T_LLM": 9672,
+    "T_total": 11783,
+    "timestamp": 1766260092732,
+    "datetime": "2025-12-20 19:48:12"
+  },
+  {
+    "T_upload": 843,
+    "T_denoise": 47,
+    "T_classify": 919,
+    "T_LLM": 8360,
+    "T_total": 10169,
+    "timestamp": 1766260105261,
+    "datetime": "2025-12-20 19:48:25"
+  },
+  {
+    "T_upload": 851,
+    "T_denoise": 38,
+    "T_classify": 910,
+    "T_LLM": 11831,
+    "T_total": 13630,
+    "timestamp": 1766260115962,
+    "datetime": "2025-12-20 19:48:35"
+  },
+  {
+    "T_upload": 857,
+    "T_denoise": 35,
+    "T_classify": 923,
+    "T_LLM": 11035,
+    "T_total": 12850,
+    "timestamp": 1766260130126,
+    "datetime": "2025-12-20 19:48:50"
+  },
+  {
+    "T_upload": 900,
+    "T_denoise": 67,
+    "T_classify": 898,
+    "T_LLM": 8347,
+    "T_total": 10212,
+    "timestamp": 1766260143507,
+    "datetime": "2025-12-20 19:49:03"
+  },
+  {
+    "T_upload": 858,
+    "T_denoise": 38,
+    "T_classify": 897,
+    "T_LLM": 8437,
+    "T_total": 10230,
+    "timestamp": 1766260154297,
+    "datetime": "2025-12-20 19:49:14"
+  },
+  {
+    "T_upload": 828,
+    "T_denoise": 37,
+    "T_classify": 931,
+    "T_LLM": 8382,
+    "T_total": 10178,
+    "timestamp": 1766260165092,
+    "datetime": "2025-12-20 19:49:25"
+  },
+  {
+    "T_upload": 848,
+    "T_denoise": 38,
+    "T_classify": 929,
+    "T_LLM": 15324,
+    "T_total": 17139,
+    "timestamp": 1766260175795,
+    "datetime": "2025-12-20 19:49:35"
+  },
+  {
+    "T_upload": 857,
+    "T_denoise": 39,
+    "T_classify": 928,
+    "T_LLM": 9512,
+    "T_total": 11336,
+    "timestamp": 1766260193464,
+    "datetime": "2025-12-20 19:49:53"
+  },
+  {
+    "T_upload": 897,
+    "T_denoise": 34,
+    "T_classify": 1000,
+    "T_LLM": 8731,
+    "T_total": 10662,
+    "timestamp": 1766260205589,
+    "datetime": "2025-12-20 19:50:05"
+  },
+  {
+    "T_upload": 867,
+    "T_denoise": 34,
+    "T_classify": 894,
+    "T_LLM": 11869,
+    "T_total": 13664,
+    "timestamp": 1766260216777,
+    "datetime": "2025-12-20 19:50:16"
+  },
+  {
+    "T_upload": 828,
+    "T_denoise": 38,
+    "T_classify": 965,
+    "T_LLM": 19993,
+    "T_total": 21824,
+    "timestamp": 1766260230970,
+    "datetime": "2025-12-20 19:50:30"
+  },
+  {
+    "T_upload": 827,
+    "T_denoise": 41,
+    "T_classify": 989,
+    "T_LLM": 10083,
+    "T_total": 11940,
+    "timestamp": 1766260253339,
+    "datetime": "2025-12-20 19:50:53"
+  },
+  {
+    "T_upload": 862,
+    "T_denoise": 35,
+    "T_classify": 914,
+    "T_LLM": 9040,
+    "T_total": 10851,
+    "timestamp": 1766260265852,
+    "datetime": "2025-12-20 19:51:05"
+  },
+  {
+    "T_upload": 892,
+    "T_denoise": 34,
+    "T_classify": 1163,
+    "T_LLM": 13662,
+    "T_total": 15751,
+    "timestamp": 1766260277233,
+    "datetime": "2025-12-20 19:51:17"
+  },
+  {
+    "T_upload": 1240,
+    "T_denoise": 78,
+    "T_classify": 1166,
+    "T_LLM": 9405,
+    "T_total": 11889,
+    "timestamp": 1766260440561,
+    "datetime": "2025-12-20 19:54:00"
+  },
+  {
+    "T_upload": 832,
+    "T_denoise": 41,
+    "T_classify": 975,
+    "T_LLM": 9282,
+    "T_total": 11130,
+    "timestamp": 1766260452986,
+    "datetime": "2025-12-20 19:54:12"
+  },
+  {
+    "T_upload": 834,
+    "T_denoise": 36,
+    "T_classify": 933,
+    "T_LLM": 11952,
+    "T_total": 13755,
+    "timestamp": 1766260464881,
+    "datetime": "2025-12-20 19:54:24"
+  },
+  {
+    "T_upload": 857,
+    "T_denoise": 41,
+    "T_classify": 889,
+    "T_LLM": 8692,
+    "T_total": 10479,
+    "timestamp": 1766260479164,
+    "datetime": "2025-12-20 19:54:39"
+  },
+  {
+    "T_upload": 861,
+    "T_denoise": 37,
+    "T_classify": 926,
+    "T_LLM": 12222,
+    "T_total": 14046,
+    "timestamp": 1766260490227,
+    "datetime": "2025-12-20 19:54:50"
+  },
+  {
+    "T_upload": 877,
+    "T_denoise": 40,
+    "T_classify": 916,
+    "T_LLM": 9105,
+    "T_total": 10938,
+    "timestamp": 1766260504916,
+    "datetime": "2025-12-20 19:55:04"
+  },
+  {
+    "T_upload": 838,
+    "T_denoise": 39,
+    "T_classify": 932,
+    "T_LLM": 19821,
+    "T_total": 21630,
+    "timestamp": 1766260516402,
+    "datetime": "2025-12-20 19:55:16"
+  },
+  {
+    "T_upload": 840,
+    "T_denoise": 35,
+    "T_classify": 935,
+    "T_LLM": 7753,
+    "T_total": 9563,
+    "timestamp": 1766260538577,
+    "datetime": "2025-12-20 19:55:38"
+  },
+  {
+    "T_upload": 838,
+    "T_denoise": 37,
+    "T_classify": 925,
+    "T_LLM": 13703,
+    "T_total": 15503,
+    "timestamp": 1766260548669,
+    "datetime": "2025-12-20 19:55:48"
+  },
+  {
+    "T_upload": 845,
+    "T_denoise": 51,
+    "T_classify": 895,
+    "T_LLM": 11539,
+    "T_total": 13330,
+    "timestamp": 1766260564789,
+    "datetime": "2025-12-20 19:56:04"
+  },
+  {
+    "T_upload": 892,
+    "T_denoise": 41,
+    "T_classify": 901,
+    "T_LLM": 9641,
+    "T_total": 11475,
+    "timestamp": 1766260578648,
+    "datetime": "2025-12-20 19:56:18"
+  },
+  {
+    "T_upload": 862,
+    "T_denoise": 45,
+    "T_classify": 1164,
+    "T_LLM": 10382,
+    "T_total": 12453,
+    "timestamp": 1766260590643,
+    "datetime": "2025-12-20 19:56:30"
+  },
+  {
+    "T_upload": 847,
+    "T_denoise": 40,
+    "T_classify": 893,
+    "T_LLM": 8307,
+    "T_total": 10087,
+    "timestamp": 1766260603622,
+    "datetime": "2025-12-20 19:56:43"
+  },
+  {
+    "T_upload": 842,
+    "T_denoise": 39,
+    "T_classify": 892,
+    "T_LLM": 10656,
+    "T_total": 12429,
+    "timestamp": 1766260614258,
+    "datetime": "2025-12-20 19:56:54"
+  },
+  {
+    "T_upload": 872,
+    "T_denoise": 34,
+    "T_classify": 896,
+    "T_LLM": 10423,
+    "T_total": 12225,
+    "timestamp": 1766260627212,
+    "datetime": "2025-12-20 19:57:07"
+  },
+  {
+    "T_upload": 890,
+    "T_denoise": 36,
+    "T_classify": 899,
+    "T_LLM": 9166,
+    "T_total": 10991,
+    "timestamp": 1766260639962,
+    "datetime": "2025-12-20 19:57:19"
+  },
+  {
+    "T_upload": 862,
+    "T_denoise": 36,
+    "T_classify": 911,
+    "T_LLM": 11529,
+    "T_total": 13338,
+    "timestamp": 1766260651478,
+    "datetime": "2025-12-20 19:57:31"
+  },
+  {
+    "T_upload": 869,
+    "T_denoise": 58,
+    "T_classify": 966,
+    "T_LLM": 8918,
+    "T_total": 10811,
+    "timestamp": 1766260665366,
+    "datetime": "2025-12-20 19:57:45"
+  },
+  {
+    "T_upload": 876,
+    "T_denoise": 36,
+    "T_classify": 925,
+    "T_LLM": 8248,
+    "T_total": 10085,
+    "timestamp": 1766260676703,
+    "datetime": "2025-12-20 19:57:56"
+  },
+  {
+    "T_upload": 873,
+    "T_denoise": 35,
+    "T_classify": 913,
+    "T_LLM": 8243,
+    "T_total": 10064,
+    "timestamp": 1766260687310,
+    "datetime": "2025-12-20 19:58:07"
+  }
+]

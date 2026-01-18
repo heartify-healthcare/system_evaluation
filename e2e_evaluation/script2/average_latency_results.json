@@ -1,0 +1,8 @@
+{
+  "T_upload_avg": 863.64,
+  "T_denoise_avg": 42.46,
+  "T_classify_avg": 960.19,
+  "T_LLM_avg": 11702.5,
+  "T_total_avg": 13568.78,
+  "total_requests": 118
+}
